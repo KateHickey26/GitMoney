@@ -27,7 +27,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
  * 
  * Below are provided some sample methods that illustrate how to create
  * REST API methods in Dropwizard. You will need to replace these with
- * methods that allow a TopTrumps game to be controled from a Web page.
+ * methods that allow a TopTrumps game to be controlled from a Web page.
  */
 public class TopTrumpsRESTAPI {
 
@@ -43,7 +43,7 @@ public class TopTrumpsRESTAPI {
 	 */
 	public TopTrumpsRESTAPI(TopTrumpsJSONConfiguration conf) {
 		// ----------------------------------------------------
-		// Add relevant initalization here
+		// Add relevant initialization here
 		// ----------------------------------------------------
 	}
 	
