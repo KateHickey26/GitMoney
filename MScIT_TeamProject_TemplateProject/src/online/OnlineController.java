@@ -32,7 +32,6 @@ public class OnlineController {
     // user input chooses how many AI players will be in game
     // the deck is loaded 
     public OnlineController(int inputNumAI) {
-        deck = new Deck();
         deck = readInDeck("GlasgowBars.txt");
 
         aiPlayerNum = inputNumAI;
@@ -52,15 +51,8 @@ public class OnlineController {
         }
 
     public void playRoundAI(){
-
-        if (game.getPlayer().get(game.getActivePlayer()).getName() != "You"){
-            humanIsActive = false;
-        }
-
-        // if the human is not the active player, then we call upon methods to make the active AI player choose the category
-        if ( humanIsActive = false ) {
-            chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
-        }
+    	
+        chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
 
         //collect Top cards method takes each players top cards to be able to compare them
         // this is handled within the game model (or should be)
@@ -124,7 +116,6 @@ public class OnlineController {
 
 
 
-    }
         
     public RoundInfo getRoundInfo(){
         return rInfo;
@@ -147,14 +138,17 @@ public class OnlineController {
 				int music = (int) Integer.parseInt(scanner.next());
 				//System.out.println("here");
 				inputDeck.addCard(new Card(name, sticky, pintPrice, pubQuiz, atmosphere, music));
-            } 
+            }
+            
 
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         } 
         catch(NoSuchElementException ex2) {
             ex2.printStackTrace();
-        } return inputDeck;
+        } 
+        
+        return inputDeck;
 
 
         

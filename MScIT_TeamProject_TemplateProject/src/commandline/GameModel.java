@@ -32,7 +32,7 @@ public class GameModel {
 		player.add(new Player());
 		player.get(0).setName("You");
 		// adds AI players to array list
-		for (int i = 1; i < numAIPlayers; i++) {
+		for (int i = 1; i <= numAIPlayers; i++) { //Halp
 			player.add(new Player());
 			player.get(i).setName("AI Player " + i);
 		}
@@ -41,7 +41,7 @@ public class GameModel {
 		do{
 			player.get(k).addOneCard(mainDeck.getAndRemoveTopCard());
 			k++;
-			if(k>=numAIPlayers){
+			if(k>numAIPlayers){ //changed from if(k>=numAIPlayers)
 				k=0;
 			}
 		}while(mainDeck.sizeOfDeck()>0);
