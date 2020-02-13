@@ -2,7 +2,9 @@ package online.dwResources;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -13,8 +15,12 @@ import javax.ws.rs.core.MediaType;
 
 import online.configuration.TopTrumpsJSONConfiguration;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.google.gson.Gson;
+
+import database.DatabaseAccess;
 
 @Path("/toptrumps") // Resources specified here should be hosted at http://localhost:7777/toptrumps
 @Produces(MediaType.APPLICATION_JSON) // This resource returns JSON content
@@ -50,6 +56,29 @@ public class TopTrumpsRESTAPI {
 	// ----------------------------------------------------
 	// Add relevant API methods here
 	// ----------------------------------------------------
+
+	@GET
+	@Path("/database")
+	/**
+	 * this takes all the databse queries and puts them into a hashmap
+	 * the hashmap is then converted into a json object and returned on method call
+	 * 
+	 * @return - database values as string
+	 * @throws JsonProcessingException
+	 */
+	public String databaseStats() throws JsonProcessingException{
+		Map<String, String> stats = new HashMap<String, String>();
+		stats.put("totalGamesPlayed", "" + DatabaseAccess.getTotalNumerOfGames());
+		stats.put("numberOfUserWins", "" + DatabaseAccess.getNumberOfUserWins());
+		stats.put("numberOfComputerWins", "" + DatabaseAccess.getNumberOfComputerWins());
+		stats.put("avgNumberOfDraws", "" + DatabaseAccess.getAvgNoDraws());
+		stats.put("maxNumberOfRounds", "" + DatabaseAccess.getMaxNoRounds());
+
+
+		Gson gson = new Gson();
+		String json = gson.toJson(stats);
+		return json;
+}
 	
 	@GET
 	@Path("/helloJSONList")

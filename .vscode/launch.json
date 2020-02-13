@@ -1,0 +1,80 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DatabaseConnectionTest<GitMoney_5be5a882>",
+            "request": "launch",
+            "mainClass": "MScIT_TeamProject_TemplateProject.src.DatabaseConnectionTest",
+            "projectName": "GitMoney_5be5a882"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopTrumps<GitMoney_5be5a882>",
+            "request": "launch",
+            "mainClass": "MScIT_TeamProject_TemplateProject.src.TopTrumps",
+            "projectName": "GitMoney_5be5a882"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopTrumpsCLIApplication<GitMoney_5be5a882>",
+            "request": "launch",
+            "mainClass": "MScIT_TeamProject_TemplateProject.src.commandline.TopTrumpsCLIApplication",
+            "projectName": "GitMoney_5be5a882"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopTrumpsOnlineApplication<GitMoney_5be5a882>",
+            "request": "launch",
+            "mainClass": "MScIT_TeamProject_TemplateProject.src.online.TopTrumpsOnlineApplication",
+            "projectName": "GitMoney_5be5a882"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DatabaseConnectionTest<MScIT2020Project>",
+            "request": "launch",
+            "mainClass": "DatabaseConnectionTest",
+            "projectName": "MScIT2020Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopTrumps<MScIT2020Project>",
+            "request": "launch",
+            "mainClass": "TopTrumps",
+            "projectName": "MScIT2020Project"
+        },
+        {
+            "type": "java",
+            "name": "CLI no logger",
+            "request": "launch",
+            "mainClass": "commandline.TopTrumpsCLIApplication",
+            "args": "false",
+            "projectName": "MScIT2020Project"
+        },
+        {
+            "type": "java",
+            "name": "CLI with logger",
+            "request": "launch",
+            "mainClass": "commandline.TopTrumpsCLIApplication",
+            "args": "true",
+            "projectName": "MScIT2020Project"
+        },
+        {
+            "type": "java",
+            "name": "Online Mode",
+            "request": "launch",
+            "mainClass": "online.TopTrumpsOnlineApplication",
+            "args": ["server", "TopTrumps.json"],
+            "projectName": "MScIT2020Project"
+        }
+    ]
+}

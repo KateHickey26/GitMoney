@@ -7,55 +7,15 @@ public class OCTest {
         oController.startGame();
         
         
+        
 
-        oController.getRoundInfo().print(System.out);
+       oController.getRoundInfo().print(System.out);
+       oController.playRoundAI();
+        
+      System.out.println(oController.game.getRoundWinner(oController.chosenCategory));
         
         
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
-        
-        oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out); oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out); oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out); oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out); oController.playRoundAI();
-        System.out.println("");
-        oController.getRoundInfo().print(System.out);
+    
         
 
 

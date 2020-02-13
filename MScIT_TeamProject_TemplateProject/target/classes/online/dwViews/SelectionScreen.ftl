@@ -25,6 +25,45 @@
     	<div class="container">
 
 			<!-- Add your HTML Here -->
+			<!-- JULIAS ATTEMPT -->
+			 <h1 class="blockquote text-center">
+                        Glasgow Bars Top Trumps
+                    </h1>
+			<div class="container-fluid">
+            <div class ="row">
+                <div class ="col">
+                    <h1 class="blockquote text-center">
+                        Glasgow Bars Top Trumps
+                    </h1>
+                </div>
+            </div>
+          </div>
+
+          <div class ="container-fluid">
+              <div class ="row">
+                  <div class ="col"></div>
+                  <div class ="col"></div>
+                  <div class ="col"></div>
+              </div>
+              <div class ="row">
+                <div class ="col-sm"></div>
+                <div class ="col-sm"><button id="newGame" onclick="redirectGS()" value="Redirect" type="button" class="btn btn-success btn-block" >New Game</button></div>
+                <div class ="col-sm"></div>
+            </div>
+
+
+            <div class ="row">
+                <div class ="col-sm"> <br> </div>
+                <div class ="col-sm"> <br> </div>
+                <div class ="col-sm"> <br> </div>
+            </div>
+            <div class ="row">
+                <div class ="col"></div>
+                <div class ="col"><button type="button" onclick="redirectSS()" class="btn btn-warning btn-block">Statistics</button></div>
+                <div class ="col"></div>
+            </div>
+          </div>
+			<!---->
 		
 		</div>
 		

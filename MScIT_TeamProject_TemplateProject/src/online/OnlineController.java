@@ -81,6 +81,13 @@ public class OnlineController {
         if(game.getPlayer().size()==1){
             roundWinner = 0;
         }
+        
+        else if (roundWinner == -1) {
+        	game.removeTopCards();
+        	game.transferToCommunal(game.getMainDeck());
+        }
+        
+        game.incrementNumOfRounds();
 
         // remember to add persistent game stat method - MarksMethod1
         
@@ -97,18 +104,27 @@ public class OnlineController {
         // human round method takes an integer as a parameter - needs to be input via actionEvent / actionEventlistener
         // 
     public void playRoundHuman( int catChoice){
-        if (game.getPlayer().get(game.getActivePlayer()).getName() == "You"){
-            humanIsActive = true;
-        }
-
+    	// sets the category as the players choice - retrieves top card info
             chosenCategory  = game.getPlayer().get(0).getDeck().seeCard(0).categoryType(catChoice - 1);
-
+            
+            //collects the top cards from each player's deck
             game.collectTopCards();
+            
+            // sets the winner of the round 
             roundWinner = game.getRoundWinner(chosenCategory);
+            
+            // transgers the cards to the round winner if there is no draw
             game.transferCards(roundWinner);
             if (roundWinner != -1){
                 game.setActivePlayer(roundWinner);
             }
+            
+            // probably need to add draw handling - did I do it correctly?
+            else if (roundWinner == -1) {
+            	game.removeTopCards();
+            	game.transferToCommunal(game.getMainDeck());
+            }
+            
             game.incrementNumOfRounds();
 
             rInfo.setRoundInfo(game);
