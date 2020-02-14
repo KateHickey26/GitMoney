@@ -81,11 +81,6 @@ public class OnlineController {
             roundWinner = 0;
         }
         
-        else if (roundWinner == -1) {
-        	game.removeTopCards();
-        	game.transferToCommunal(game.getMainDeck());
-        }
-        
         game.incrementNumOfRounds();
 
         // remember to add persistent game stat method - MarksMethod1
@@ -95,7 +90,6 @@ public class OnlineController {
 
         rInfo.setRoundInfo(game);
 
-        //return rInfo;
         }
         
         // method to play a round when the human player is active player
@@ -112,17 +106,39 @@ public class OnlineController {
             // sets the winner of the round 
             roundWinner = game.getRoundWinner(chosenCategory);
             
-            // transgers the cards to the round winner if there is no draw
+            // transfers the cards to the round winner if there is no draw
             game.transferCards(roundWinner);
+
+            // if there isnt a draw, then the active player is set as the round winner 
             if (roundWinner != -1){
                 game.setActivePlayer(roundWinner);
             }
-            
-            // probably need to add draw handling - did I do it correctly?
-            else if (roundWinner == -1) {
-            	game.removeTopCards();
-            	game.transferToCommunal(game.getMainDeck());
+
+            //checks if any of the players have no cards left. If so, they are eliminated.
+        // i is decremented in that case so that no players are skipped 
+        for (int i = 0; i<game.getPlayer().size(); i++){
+            if(game.getPlayer().get(i).isEmpty()) {
+                game.getPlayer().remove(i);
+                i--;
             }
+        }
+        // check if the game has ended
+        if(game.getPlayer().size()==1){
+            roundWinner = 0;
+        }
+        
+        game.incrementNumOfRounds();
+
+        // remember to add persistent game stat method - MarksMethod1
+        
+        //increments rounds
+        game.incrementNumOfRounds();
+
+        rInfo.setRoundInfo(game);
+
+
+            
+            
             
             game.incrementNumOfRounds();
 
