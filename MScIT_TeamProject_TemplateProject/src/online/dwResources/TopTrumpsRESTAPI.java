@@ -188,6 +188,19 @@ GameModel game;
 		return json;
 	}
 
+	// @GET
+	// @Path("/istherewinner")
+	// /**
+	//  * 
+	//  * @return boolean of is there a winne
+	//  * and if there is a winner will return the name of the player;
+	//  */
+	// public String isThereWinner(){
+	// 	Gson gson = new Gson();
+	// 	String json = gson.toJson(controller.isThereWinner());
+	// 	return json;
+	// }
+
 	@GET
 	@Path("/ai1topcard")
 	/**

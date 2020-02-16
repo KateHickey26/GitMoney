@@ -563,6 +563,28 @@
             xhr.send();
         }
 
+        function isThereWinner(){
+            // First create a CORS request, this is the message we are going to send (a get request in this case)
+            var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/istherewinner"); // Request type and URL
+
+            // Message is not sent yet, but we can check that the browser supports CORS
+            if (!xhr) {
+                alert("CORS not supported");
+            };
+            xhr.onload = function(e) {
+                var responseText = xhr.response;
+                var json = JSON.parse(responseText);
+                if(json["isThereAWinner"] === "true"){
+                    return "true";
+                }else{
+                    return "false"
+                }
+
+            }
+            xhr.send();
+
+        }
+
         $(function(){
 				$(".dropdown-menu li a").click(function () {
                     // First create a CORS request, this is the message we are going to send (a get request in this case)
@@ -681,7 +703,7 @@
                 if(json["code"] === 500){
                 $("#ai2CardName").html("Eliminated");
                 $("#ai2FloorSticky").html("&nbsp&nbsp");
-                $("#UserPintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai2PintPrice").html("&nbsp&nbsp&nbsp");
                 $("#ai2PubQuiz").html("&nbsp&nbsp");
                 $("#ai2Atmosphere").html("&nbsp&nbsp");
                 $("#ai2Playlist").html("&nbsp&nbsp");
