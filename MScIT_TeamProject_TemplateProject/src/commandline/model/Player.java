@@ -24,6 +24,9 @@ public class Player {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public Card getPlayersTopCard(){
+		return this.getDeck().getTopCard();
+	}
 
 	// adds cards to the bottom of the deck (probably);
 	public void addCards(Deck d) {

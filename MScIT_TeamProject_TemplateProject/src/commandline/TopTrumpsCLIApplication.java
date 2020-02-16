@@ -65,7 +65,7 @@ public class TopTrumpsCLIApplication {
 			 */
 
 			deckOfAllCards = new Deck();
-			deckOfAllCards = inputTxt("GlasgowBars.txt");
+			deckOfAllCards = inputTxt("/Users/markmorrison/Desktop/GlasgowBars2.txt");
 			// System.out.println("deck of all cards ready");
 			// System.out.println(deckOfAllCards.sizeOfDeck());
 
@@ -192,6 +192,10 @@ public class TopTrumpsCLIApplication {
 					}
 
 					if (game.getPlayerArray().get(0).getName() == "You") {
+						/**
+						 * gets all the category names and values to print out the users card
+						 * probably should have made this a mehtod as is used multiple times
+						 */
 						System.out.println("Your drew '" + game.getPlayerArray().get(0).getDeck().seeCard(0).getName()
 								+ "':\n" + "   > " + game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(0) + ": "
 								+ game.getPlayerArray().get(0).getDeck().seeCard(0).categoryValue(0) + "\n" + "   > "
@@ -206,9 +210,6 @@ public class TopTrumpsCLIApplication {
 						System.out.println(
 								"There are " + game.getPlayerArray().get(0).getDeck().sizeOfDeck() + " cards in your deck");
 					}
-
-					// System.out.println("here");
-					// while(user is not activePlayer i.e. (game.getActivePLayer()!=1){
 
 					chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
 					// need method public Category chooseAICategory(# ID of active player i.e.
@@ -226,16 +227,6 @@ public class TopTrumpsCLIApplication {
 					// ####### System.out.println("Maindeck size at creation:" +
 					// game.getMainDeck().sizeOfDeck());
 
-					if(writeGameLogsToFile == true){
-						updateTestLogFile("TestLog.txt","Active player chose category: "+chosenCategory.getName());
-						updateTestLogFile("TestLog.txt", "Players and their decks: ");
-
-						for (int k = 0; k < game.getPlayerArray().size(); k++) {
-							updateTestLogFile("TestLog.txt", game.getPlayerArray().get(k).getName() + " has "
-									+ game.getPlayerArray().get(k).getDeck().sizeOfDeck() + " cards. " + "Top card is "
-									+ game.getPlayerArray().get(k).getDeck().getTopCard().toString());
-						}
-					}
 
 					roundWinner = game.getRoundWinner(chosenCategory);
 					// need method public int getRoundWinner(Category object chosen by active AI
@@ -303,6 +294,25 @@ public class TopTrumpsCLIApplication {
 					// if they have no cards left
 					// method should also return a String message which says which players have been
 					// eliminated
+
+
+					/**
+					 * moved the game log file writer to after eliminated player because players would have 0 cards 
+					 * and it would be trying to get top card causimng out of bounds exception
+					 */
+					if(writeGameLogsToFile == true){
+						updateTestLogFile("TestLog.txt","Active player chose category: "+chosenCategory.getName());
+						updateTestLogFile("TestLog.txt", "Players and their decks: ");
+
+						//test print ************************************
+						System.out.println("Array size" + game.getPlayerArray().size());
+
+						for (int k = 0; k < game.getPlayerArray().size(); k++) {
+							updateTestLogFile("TestLog.txt", game.getPlayerArray().get(k).getName() + " has "
+									+ game.getPlayerArray().get(k).getDeck().sizeOfDeck() + " cards. " + "Top card is " +
+									"Top card is "+game.getPlayerArray().get(k).getPlayersTopCard());
+						}
+					}
 
 					System.out.println(loserEliminatedMessage);
 
@@ -385,11 +395,14 @@ public class TopTrumpsCLIApplication {
 						updateTestLogFile("TestLog.txt","Active player chose category: "+chosenCategory.getName());
 						updateTestLogFile("TestLog.txt", "Players and their decks: ");
 
+						//test print ************************************
+						System.out.println("Array size" + game.getPlayerArray().size());
+
 						for (int k = 0; k < game.getPlayerArray().size(); k++) {
 							updateTestLogFile("TestLog.txt",
 									game.getPlayerArray().get(k).getName()+" has "+
-											game.getPlayerArray().get(k).getDeck().sizeOfDeck()+" cards. "+
-											"Top card is "+game.getPlayerArray().get(k).getDeck().getTopCard().toString());
+											game.getPlayerArray().get(k).getDeck().sizeOfDeck()+" cards. " +
+											"Top card is "+game.getPlayerArray().get(k).getPlayersTopCard());
 						}
 					}
 
