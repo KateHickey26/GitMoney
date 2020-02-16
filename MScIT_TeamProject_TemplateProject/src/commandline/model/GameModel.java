@@ -236,7 +236,7 @@ public class GameModel {
 		this.activePlayer=activePlayer;
 	}
 
-	public ArrayList<Player> getPlayer() {
+	public ArrayList<Player> getPlayerArray() {
 		return player;
 	}
 

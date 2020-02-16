@@ -70,14 +70,14 @@ public class OnlineController {
 
         //checks if any of the players have no cards left. If so, they are eliminated.
         // i is decremented in that case so that no players are skipped 
-        for (int i = 0; i<game.getPlayer().size(); i++){
-            if(game.getPlayer().get(i).isEmpty()) {
-                game.getPlayer().remove(i);
+        for (int i = 0; i<game.getPlayerArray().size(); i++){
+            if(game.getPlayerArray().get(i).isEmpty()) {
+                game.getPlayerArray().remove(i);
                 i--;
             }
         }
         // check if the game has ended
-        if(game.getPlayer().size()==1){
+        if(game.getPlayerArray().size()==1){
             roundWinner = 0;
         }
         
@@ -104,7 +104,7 @@ public class OnlineController {
         // 
     public void playRoundHuman( int catChoice){
     	// sets the category as the players choice - retrieves top card info
-            chosenCategory  = game.getPlayer().get(0).getDeck().seeCard(0).categoryType(catChoice - 1);
+            chosenCategory  = game.getPlayerArray().get(0).getDeck().seeCard(0).categoryType(catChoice - 1);
             
             //collects the top cards from each player's deck
             game.collectTopCards();
@@ -152,35 +152,35 @@ public class OnlineController {
     
     // method to return the human player's card 
     public Map getHumanCard() {
-    	Player hPlayer = this.game.getPlayer().get(0);
+    	Player hPlayer = this.game.getPlayerArray().get(0);
         Map humanCard = hPlayer.getDeck().getTopCard().getCardAsMap();
         humanCard.put("deckSize", "" + hPlayer.getDeck().sizeOfDeck());
         return humanCard;
         //making hashmap for card
     }
     public Map getAi1TopCard() {
-    	Player Ai1 = this.game.getPlayer().get(1);
+    	Player Ai1 = this.game.getPlayerArray().get(1);
         Map Ai1Card = Ai1.getDeck().getTopCard().getCardAsMap();
         Ai1Card.put("deckSize", "" + Ai1.getDeck().sizeOfDeck());
         return Ai1Card;
         //making hashmap for card
     }
     public Map getAi2TopCard() {
-    	Player Ai2 = this.game.getPlayer().get(2);
+    	Player Ai2 = this.game.getPlayerArray().get(2);
         Map Ai2Card = Ai2.getDeck().getTopCard().getCardAsMap();
         Ai2Card.put("deckSize", "" + Ai2.getDeck().sizeOfDeck());
         return Ai2Card;
         //making hashmap for card
     }
     public Map getAi3TopCard() {
-    	Player Ai3 = this.game.getPlayer().get(3);
+    	Player Ai3 = this.game.getPlayerArray().get(3);
         Map Ai3Card = Ai3.getDeck().getTopCard().getCardAsMap();
         Ai3Card.put("deckSize", "" + Ai3.getDeck().sizeOfDeck());
         return Ai3Card;
         //making hashmap for card
     }
     public Map getAi4TopCard() {
-    	Player Ai4 = this.game.getPlayer().get(4);
+    	Player Ai4 = this.game.getPlayerArray().get(4);
         Map Ai4Card = Ai4.getDeck().getTopCard().getCardAsMap();
         Ai4Card.put("deckSize", "" + Ai4.getDeck().sizeOfDeck());
         return Ai4Card;

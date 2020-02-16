@@ -1,0 +1,1760 @@
+Game Start at 2020-02-16 16:14:16.712
+
+The game has 4 AI players
+
+
+Round 1: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 9 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 9 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 2 has 9 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 3 has 9 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 2: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 12 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 1 has 8 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 2 has 8 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+AI Player 3 has 8 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+
+Round 3: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 11 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 7 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 2 has 11 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 3 has 7 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+
+Round 4: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 10 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 6 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 2 has 14 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 3 has 6 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+
+Round 5: AI Player 2 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 9 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 5 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 2 has 17 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 3 has 5 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+
+Round 6: AI Player 3 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 8 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 1 has 4 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 2 has 16 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 3 has 8 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 7: AI Player 3 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 7 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 1 has 3 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 2 has 15 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 3 has 11 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 8: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 2 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 2 has 14 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 3 has 14 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 9: AI Player 2 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 5 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 1 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 2 has 17 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 3 has 13 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 10: AI Player 2 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 4 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+Game Start at 2020-02-16 16:15:01.023
+
+The game has 4 AI players
+
+
+Round 1: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 9 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 1 has 9 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 2 has 9 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 3 has 9 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 2: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 8 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 12 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 2 has 8 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 3 has 8 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 3: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 7 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 15 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 2 has 7 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 3 has 7 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 4: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 18 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 2 has 6 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 3 has 6 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+
+Round 5: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 9 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 1 has 17 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 2 has 5 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 3 has 5 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 6: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 8 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 16 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 2 has 8 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 3 has 4 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+
+Round 7: AI Player 2 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 7 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 1 has 15 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+AI Player 2 has 11 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 3 has 3 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 8: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 6 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 14 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 2 has 14 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 3 has 2 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 9: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 5 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 17 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 2 has 13 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 3 has 1 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 10: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 4 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 20 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 2 has 12 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+Game Start at 2020-02-16 16:15:22.604
+
+The game has 4 AI players
+
+
+Round 1: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 9 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 9 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 2 has 9 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 3 has 9 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+
+Round 2: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 8 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 12 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 2 has 8 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 3 has 8 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+
+Round 3: AI Player 3 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 7 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 11 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 2 has 7 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 3 has 11 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 4: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 1 has 10 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 2 has 6 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 3 has 14 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+
+Round 5: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 5 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 1 has 9 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 2 has 5 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 3 has 17 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 6: AI Player 3 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 4 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 8 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 2 has 4 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 3 has 20 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 7: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 3 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 1 has 7 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 2 has 3 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 3 has 23 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+
+Round 8: AI Player 3 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 2 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 1 has 6 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 2 has 2 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 3 has 26 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+
+Round 9: AI Player 3 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 1 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 5 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 2 has 1 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 3 has 29 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 10: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+Game Start at 2020-02-16 16:16:14.975
+
+The game has 3 AI players
+
+
+Round 1: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 13 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 1 has 12 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 2 has 12 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 2: AI Player 2 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 12 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 1 has 11 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 2 has 14 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 3: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 11 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 1 has 10 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 2 has 16 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+
+Round 4: AI Player 2 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 10 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 9 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 2 has 18 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 5: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 9 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 1 has 8 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 2 has 20 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 6: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 8 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 1 has 7 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 2 has 22 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 7: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 10 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 1 has 6 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 2 has 21 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+
+Round 8: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 12 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 5 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 2 has 20 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+
+Round 9: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 11 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 4 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 2 has 22 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+
+Round 10: AI Player 2 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 10 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 1 has 3 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 2 has 24 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+
+Round 11: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 12 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 2 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 2 has 23 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+
+Round 12: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 14 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 1 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 2 has 22 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+
+Round 13: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 13 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 1 has 3 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 2 has 21 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 14: AI Player 2 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 12 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 1 has 2 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 2 has 23 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 15: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 11 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 1 has 1 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 2 has 25 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+
+Round 16: AI Player 2 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 10 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+Game Start at 2020-02-16 16:17:20.64
+
+The game has 5 AI players
+
+
+Round 1: AI Player 2 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 7 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 1 has 7 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 2 has 7 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 3 has 7 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 4 has 7 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 2: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 6 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 2 has 11 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 3 has 6 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 4 has 6 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 3: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 5 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 1 has 5 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 2 has 15 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 3 has 5 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 4 has 5 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+
+Round 4: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 9 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 4 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 2 has 14 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 3 has 4 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 4 has 4 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 5: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 13 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 1 has 3 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 2 has 13 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 3 has 3 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 4 has 3 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 6: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 17 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 2 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 2 has 12 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 3 has 2 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 4 has 2 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+
+Round 7: AI Player 3 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 16 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 1 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 2 has 11 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 3 has 6 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 4 has 1 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 8: AI Player 3 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 15 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+Game Start at 2020-02-16 16:20:24.047
+
+The game has 2 AI players
+
+
+Round 1: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 19 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+AI Player 1 has 19 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+
+Round 2: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 18 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 20 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+
+Round 3: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 17 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 1 has 21 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+
+Round 4: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 16 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 1 has 22 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 5: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 15 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 1 has 23 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 6: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 14 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 24 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+
+Round 7: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 13 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 25 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 8: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 14 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 24 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+
+Round 9: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 15 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 1 has 23 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 10: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 16 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 22 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 11: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 17 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 21 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 12: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 18 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 20 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 13: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 19 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 19 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+
+Round 14: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 20 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 18 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+
+Round 15: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 21 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 1 has 17 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+
+Round 16: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 22 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 16 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+
+Round 17: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 21 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 1 has 17 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 18: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 20 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 1 has 18 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 19: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 19 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 1 has 19 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 20: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 18 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 20 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+
+Round 21: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 17 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 21 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 22: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 16 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 1 has 22 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 23: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 15 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 23 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+
+Round 24: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 14 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 24 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+
+Round 25: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 15 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 23 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+
+Round 26: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 16 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 1 has 22 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 27: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 17 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 1 has 21 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+
+Round 28: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 16 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 22 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 29: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 17 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 1 has 21 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+
+Round 30: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 18 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 20 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 31: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 19 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 1 has 19 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+
+Round 32: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 20 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 18 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 33: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 21 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 1 has 17 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+
+Round 34: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 22 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 16 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+
+Round 35: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 23 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 1 has 15 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+
+Round 36: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 24 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 14 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+
+Round 37: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 25 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 1 has 13 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 38: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 26 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 1 has 12 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+
+Round 39: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 27 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 11 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 40: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 28 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 10 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+
+Round 41: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 29 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 9 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 42: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 30 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 8 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+
+Round 43: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 31 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 7 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+
+Round 44: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 32 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 6 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+
+Round 45: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 33 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 1 has 5 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 46: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 34 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 4 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 47: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 35 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 1 has 3 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 48: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 34 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 1 has 4 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 49: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 33 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 1 has 5 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 50: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 32 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 6 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 51: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 33 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 1 has 5 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 52: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 32 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 1 has 6 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 53: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 31 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 1 has 7 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 54: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 30 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 1 has 8 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 55: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 29 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 9 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 56: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 28 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 1 has 10 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+
+Round 57: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 27 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 1 has 11 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 58: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 26 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 12 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 59: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 25 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 13 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 60: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 24 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 1 has 14 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+
+Round 61: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 23 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 1 has 15 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 62: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 22 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 16 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 63: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 21 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 1 has 17 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 64: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 20 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 1 has 18 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 65: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 19 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 1 has 19 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 66: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 18 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 1 has 20 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+
+Round 67: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 17 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 1 has 21 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 68: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 16 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 22 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+
+Round 69: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 15 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 1 has 23 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+
+Round 70: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 14 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 1 has 24 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 71: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 13 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 25 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 72: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 12 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 1 has 26 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 73: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 11 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 27 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+
+Round 74: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 10 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 28 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 75: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 11 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 27 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+
+Round 76: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 12 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 1 has 26 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+
+Round 77: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 13 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 25 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+
+Round 78: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 14 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 24 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+
+Round 79: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 15 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 23 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 80: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 16 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 1 has 22 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 81: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 17 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 1 has 21 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+
+Round 82: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 16 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 1 has 22 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 83: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 15 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 1 has 23 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+
+Round 84: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 14 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 24 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 85: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 13 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 25 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+
+Round 86: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 14 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 24 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 87: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 13 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 25 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 88: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 12 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 26 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+
+Round 89: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 13 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 25 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+
+Round 90: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 14 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 1 has 24 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 91: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 15 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 1 has 23 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+
+Round 92: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 14 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 1 has 24 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+
+Round 93: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 13 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 25 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+
+Round 94: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 12 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 26 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 95: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 13 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 1 has 25 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+
+Round 96: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 14 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 24 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 97: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 15 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 1 has 23 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+
+Round 98: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 14 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 24 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 99: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 13 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 1 has 25 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+
+Round 100: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 12 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 1 has 26 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 101: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 11 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 27 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 102: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 10 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 28 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 103: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 9 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 29 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 104: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 10 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 28 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+
+Round 105: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 11 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 1 has 27 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+
+Round 106: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 12 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 26 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 107: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 13 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 25 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+
+Round 108: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 14 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 1 has 24 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+
+Round 109: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 15 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 23 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 110: You is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 16 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 1 has 22 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+
+Round 111: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 17 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 1 has 21 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+
+Round 112: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 16 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+AI Player 1 has 22 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 113: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 15 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 23 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 114: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 14 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 24 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+
+Round 115: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 13 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 1 has 25 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 116: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 12 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 26 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+
+Round 117: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 11 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 27 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+
+Round 118: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 10 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 1 has 28 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+
+Round 119: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 9 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 1 has 29 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+
+Round 120: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 8 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 1 has 30 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 121: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 7 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 1 has 31 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+
+Round 122: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 32 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+
+Round 123: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 5 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 1 has 33 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+
+Round 124: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 4 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 1 has 34 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+
+Round 125: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 3 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 1 has 35 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 126: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 4 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 34 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 127: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 5 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 1 has 33 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+
+Round 128: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 6 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 1 has 32 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 129: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 7 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 31 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 130: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 1 has 32 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+
+Round 131: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 7 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 1 has 31 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+
+Round 132: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 8 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 30 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+
+Round 133: You is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 9 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 1 has 29 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+
+Round 134: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 8 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 30 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+
+Round 135: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 7 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 1 has 31 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+
+Round 136: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 8 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 1 has 30 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 137: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 9 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 1 has 29 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+
+Round 138: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 10 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 1 has 28 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+
+Round 139: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 9 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 1 has 29 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 140: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 8 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 1 has 30 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+
+Round 141: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 7 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 1 has 31 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+
+Round 142: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 6 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 1 has 32 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 143: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 5 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 33 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 144: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 4 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 34 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+
+Round 145: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 3 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 1 has 35 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+
+Round 146: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 2 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 36 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+
+Round 147: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 1 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 1 has 37 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+
+Round 148: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+Game Start at 2020-02-16 16:24:45.884
+
+The game has 5 AI players
+
+
+Round 1: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 7 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 1 has 7 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 2 has 7 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 3 has 7 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 4 has 7 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+
+Round 2: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 6 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 1 has 11 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 2 has 6 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 3 has 6 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 4 has 6 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+
+Round 3: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 5 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 1 has 15 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 2 has 5 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 3 has 5 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 4 has 5 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+
+Round 4: AI Player 4 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 4 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 1 has 14 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 2 has 4 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 3 has 4 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 4 has 9 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 5: AI Player 4 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 3 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 13 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 2 has 3 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 3 has 3 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 4 has 13 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 6: AI Player 2 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 2 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 1 has 12 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 2 has 7 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 3 has 2 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 4 has 12 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+
+Round 7: You is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 6 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 1 has 11 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 2 has 6 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 3 has 1 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 4 has 11 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+
+Round 8: AI Player 3 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 5 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 10 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+AI Player 2 has 5 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 3 has 5 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 4 has 10 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 9: AI Player 3 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 4 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 1 has 9 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 2 has 4 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 3 has 9 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 4 has 9 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+
+Round 10: AI Player 3 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 3 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 1 has 8 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 2 has 3 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+AI Player 3 has 13 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 4 has 8 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+
+Round 11: AI Player 3 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 2 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 7 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+AI Player 2 has 2 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 3 has 17 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 4 has 7 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 12: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 1 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+AI Player 1 has 6 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 2 has 1 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 3 has 21 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 4 has 6 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 13: AI Player 3 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+Game Start at 2020-02-16 16:24:59.144
+
+The game has 5 AI players
+
+
+Round 1: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 7 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 1 has 7 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 2 has 7 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+AI Player 3 has 7 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 4 has 7 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 2: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 6 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 1 has 11 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 2 has 6 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+AI Player 3 has 6 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 4 has 6 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+
+Round 3: You is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 10 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 1 has 10 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 2 has 5 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+AI Player 3 has 5 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 4 has 5 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+
+Round 4: AI Player 4 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 9 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 1 has 9 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 2 has 4 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 3 has 4 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 4 has 9 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+
+Round 5: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 8 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 13 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 2 has 3 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 3 has 3 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 4 has 8 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+
+Round 6: AI Player 4 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 7 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+AI Player 1 has 12 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 2 has 2 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+AI Player 3 has 2 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+AI Player 4 has 12 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+
+Round 7: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 6 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 1 has 16 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 2 has 1 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 3 has 1 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+AI Player 4 has 11 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+
+Round 8: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 5 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 1 has 20 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+Game Start at 2020-02-16 16:28:51.085
+
+The game has 3 AI players
+
+
+Round 1: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 2: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 3: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 4: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+
+Round 5: AI Player 2 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 6: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 7: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 8: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+
+Round 9: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 10: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 11: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 12: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 13: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 14: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+
+Round 15: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+
+Round 16: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+
+Round 17: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 18: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 19: AI Player 1 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+
+Round 20: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 21: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 22: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+
+Round 23: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 24: AI Player 1 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+
+Round 25: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+
+Round 26: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+
+Round 27: AI Player 1 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+
+Round 28: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+Game Start at 2020-02-16 17:11:59.411
+
+The game has 3 AI players
+
+
+Round 1: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 13 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 1 has 12 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 2 has 12 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+
+Round 2: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 15 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 1 has 11 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 2 has 11 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+
+Round 3: AI Player 1 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 14 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 1 has 13 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 2 has 10 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 
+
+Round 4: AI Player 1 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 13 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+AI Player 1 has 15 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+AI Player 2 has 9 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+
+Round 5: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 15 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+AI Player 1 has 14 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+AI Player 2 has 8 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 6: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 14 cards. Top card is Tabac Floor Stickiness:12 Pint Price:45 Pub Quiz Quality:6 Atmosphere:43 Playlist Groovability:14 
+AI Player 1 has 13 cards. Top card is BananaMoon Floor Stickiness:3 Pint Price:7 Pub Quiz Quality:16 Atmosphere:4 Playlist Groovability:8 
+AI Player 2 has 10 cards. Top card is OldSchoolHouse Floor Stickiness:46 Pint Price:32 Pub Quiz Quality:45 Atmosphere:11 Playlist Groovability:18 
+
+Round 7: AI Player 2 is active player ###############
+Active player chose category: Floor Stickiness
+Players and their decks: 
+You has 13 cards. Top card is BeerBar Floor Stickiness:50 Pint Price:1 Pub Quiz Quality:34 Atmosphere:36 Playlist Groovability:1 
+AI Player 1 has 12 cards. Top card is TheArlington Floor Stickiness:17 Pint Price:4 Pub Quiz Quality:15 Atmosphere:24 Playlist Groovability:20 
+AI Player 2 has 12 cards. Top card is TheHugAndPint Floor Stickiness:7 Pint Price:46 Pub Quiz Quality:26 Atmosphere:34 Playlist Groovability:6 
+
+Round 8: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 12 cards. Top card is TheBerkleySuite Floor Stickiness:47 Pint Price:19 Pub Quiz Quality:10 Atmosphere:7 Playlist Groovability:17 
+AI Player 1 has 11 cards. Top card is InnDeep Floor Stickiness:44 Pint Price:36 Pub Quiz Quality:13 Atmosphere:29 Playlist Groovability:45 
+AI Player 2 has 14 cards. Top card is TheLeftBank Floor Stickiness:10 Pint Price:40 Pub Quiz Quality:4 Atmosphere:25 Playlist Groovability:9 
+
+Round 9: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 11 cards. Top card is Stereo Floor Stickiness:43 Pint Price:24 Pub Quiz Quality:19 Atmosphere:50 Playlist Groovability:34 
+AI Player 1 has 10 cards. Top card is OranMor Floor Stickiness:48 Pint Price:22 Pub Quiz Quality:5 Atmosphere:2 Playlist Groovability:10 
+AI Player 2 has 16 cards. Top card is Lebowskis Floor Stickiness:22 Pint Price:30 Pub Quiz Quality:17 Atmosphere:41 Playlist Groovability:25 
+
+Round 10: AI Player 2 is active player ###############
+Active player chose category: Atmosphere
+Players and their decks: 
+You has 10 cards. Top card is TheRecordFactory Floor Stickiness:34 Pint Price:5 Pub Quiz Quality:14 Atmosphere:47 Playlist Groovability:40 
+AI Player 1 has 9 cards. Top card is FlatOne Floor Stickiness:39 Pint Price:14 Pub Quiz Quality:3 Atmosphere:44 Playlist Groovability:31 
+AI Player 2 has 18 cards. Top card is TheBenNevis Floor Stickiness:38 Pint Price:23 Pub Quiz Quality:48 Atmosphere:15 Playlist Groovability:33 
+
+Round 11: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 12 cards. Top card is BankStreetBar Floor Stickiness:30 Pint Price:45 Pub Quiz Quality:7 Atmosphere:23 Playlist Groovability:24 
+AI Player 1 has 8 cards. Top card is TheCraftyPig Floor Stickiness:42 Pint Price:27 Pub Quiz Quality:50 Atmosphere:18 Playlist Groovability:15 
+AI Player 2 has 17 cards. Top card is Swing Floor Stickiness:40 Pint Price:28 Pub Quiz Quality:8 Atmosphere:26 Playlist Groovability:44 
+
+Round 12: AI Player 2 is active player ###############
+Active player chose category: Playlist Groovability
+Players and their decks: 
+You has 11 cards. Top card is UbiquitousChip Floor Stickiness:2 Pint Price:47 Pub Quiz Quality:23 Atmosphere:46 Playlist Groovability:41 
+AI Player 1 has 7 cards. Top card is TheBrassMonkey Floor Stickiness:11 Pint Price:44 Pub Quiz Quality:29 Atmosphere:48 Playlist Groovability:28 
+AI Player 2 has 19 cards. Top card is Stravaigin Floor Stickiness:20 Pint Price:50 Pub Quiz Quality:18 Atmosphere:35 Playlist Groovability:32 
+
+Round 13: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 10 cards. Top card is TheParlour Floor Stickiness:26 Pint Price:35 Pub Quiz Quality:44 Atmosphere:10 Playlist Groovability:22 
+AI Player 1 has 6 cards. Top card is NiceNSleazy Floor Stickiness:49 Pint Price:17 Pub Quiz Quality:2 Atmosphere:21 Playlist Groovability:43 
+AI Player 2 has 21 cards. Top card is TheFinnieston Floor Stickiness:21 Pint Price:37 Pub Quiz Quality:32 Atmosphere:14 Playlist Groovability:5 
+
+Round 14: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 9 cards. Top card is Slouch Floor Stickiness:37 Pint Price:18 Pub Quiz Quality:11 Atmosphere:8 Playlist Groovability:46 
+AI Player 1 has 5 cards. Top card is DRAM Floor Stickiness:19 Pint Price:41 Pub Quiz Quality:42 Atmosphere:42 Playlist Groovability:2 
+AI Player 2 has 23 cards. Top card is TheGrosvener Floor Stickiness:29 Pint Price:48 Pub Quiz Quality:49 Atmosphere:38 Playlist Groovability:3 
+
+Round 15: AI Player 2 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 8 cards. Top card is Distill Floor Stickiness:36 Pint Price:15 Pub Quiz Quality:30 Atmosphere:45 Playlist Groovability:19 
+AI Player 1 has 4 cards. Top card is TheSparkleHorse Floor Stickiness:23 Pint Price:39 Pub Quiz Quality:28 Atmosphere:1 Playlist Groovability:30 
+AI Player 2 has 25 cards. Top card is BeGin Floor Stickiness:1 Pint Price:49 Pub Quiz Quality:1 Atmosphere:40 Playlist Groovability:16 
+
+Round 16: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 7 cards. Top card is InnisAndGunn Floor Stickiness:41 Pint Price:26 Pub Quiz Quality:47 Atmosphere:3 Playlist Groovability:47 
+AI Player 1 has 3 cards. Top card is Embargo Floor Stickiness:45 Pint Price:2 Pub Quiz Quality:25 Atmosphere:33 Playlist Groovability:23 
+AI Player 2 has 27 cards. Top card is TheCurlersRest Floor Stickiness:13 Pint Price:31 Pub Quiz Quality:46 Atmosphere:31 Playlist Groovability:4 
+
+Round 17: AI Player 2 is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 6 cards. Top card is Sloans Floor Stickiness:5 Pint Price:33 Pub Quiz Quality:12 Atmosphere:13 Playlist Groovability:50 
+AI Player 1 has 2 cards. Top card is Chinaskis Floor Stickiness:31 Pint Price:29 Pub Quiz Quality:9 Atmosphere:5 Playlist Groovability:48 
+AI Player 2 has 29 cards. Top card is JintyMcGuinty Floor Stickiness:37 Pint Price:17 Pub Quiz Quality:19 Atmosphere:42 Playlist Groovability:36 
+
+Round 18: You is active player ###############
+Active player chose category: Pub Quiz Quality
+Players and their decks: 
+You has 8 cards. Top card is TheTikkiBar Floor Stickiness:32 Pint Price:16 Pub Quiz Quality:31 Atmosphere:32 Playlist Groovability:42 
+AI Player 1 has 1 cards. Top card is HillHeadBookclub Floor Stickiness:33 Pint Price:7 Pub Quiz Quality:33 Atmosphere:49 Playlist Groovability:12 
+AI Player 2 has 28 cards. Top card is Brel Floor Stickiness:4 Pint Price:34 Pub Quiz Quality:22 Atmosphere:20 Playlist Groovability:21 
+
+Round 19: AI Player 2 is active player ###############
+Active player chose category: Pint Price
+Players and their decks: 
+You has 7 cards. Top card is KelvingroveCafe Floor Stickiness:35 Pint Price:25 Pub Quiz Quality:20 Atmosphere:6 Playlist Groovability:26 

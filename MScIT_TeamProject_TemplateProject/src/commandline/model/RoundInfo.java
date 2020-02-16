@@ -14,11 +14,11 @@ public class RoundInfo {
         // creating instance of game already deals the cards 
         // user input needs to be passed to constructor - how many AI players
         roundCounter = g.getNumOfRounds();
-        numberOfPlayers = g.getPlayer().size();
+        numberOfPlayers = g.getPlayerArray().size();
         
         // code to get the name of the active player 
         int p = g.getActivePlayer();
-        ArrayList<Player> playerList = g.getPlayer();
+        ArrayList<Player> playerList = g.getPlayerArray();
         Player activeP = playerList.get(p);
         activePlayer = activeP.getName();
 
@@ -29,11 +29,11 @@ public class RoundInfo {
         // creating instance of game already deals the cards 
         // user input needs to be passed to constructor - how many AI players
         roundCounter = g.getNumOfRounds();
-        numberOfPlayers = g.getPlayer().size();
+        numberOfPlayers = g.getPlayerArray().size();
         
         // code to get the name of the active player 
         int p = g.getActivePlayer();
-        ArrayList<Player> playerList = g.getPlayer();
+        ArrayList<Player> playerList = g.getPlayerArray();
         Player activeP = playerList.get(p);
         activePlayer = activeP.getName();
 
