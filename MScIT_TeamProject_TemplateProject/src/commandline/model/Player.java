@@ -3,6 +3,7 @@ package commandline.model;
 public class Player {
 	private String name;
 	private Deck playerDeck;
+	private int playerID;
 
 	public Player() {
 		playerDeck = new Deck();
@@ -19,6 +20,12 @@ public class Player {
 
 	public String getName() {
 		return name;
+	}
+	public void setPlayerID(int ID){
+		this.playerID = ID;
+	}
+	public int getPlayerID(){
+		return this.playerID;
 	}
 
 	public void setName(String name) {

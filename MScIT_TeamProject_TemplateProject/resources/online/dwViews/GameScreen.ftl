@@ -116,7 +116,7 @@
 											<p style="float: left;">Active Player:&nbsp</p><p id="activePlayer"></p>
                                         </div>
                                         <div>
-											<p style="float: left;">Category Chosen:&nbsp&nbsp&nbsp</p>
+											<p style="float: left;">Category Chosen:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                                         <p id="chosenCategory"></p>
                                         </div>
                                         <div>
@@ -243,9 +243,9 @@
                     <ul id="dropdown" class="dropdown-menu">
                     <li><a data-value="1" href="#">Floor Stickiness</a></li>
 					<li><a data-value="2" href="#">Pint Price</a></li>
-					<li><a data-value="3" href="#">Atmosphere</a></li>
-					<li><a data-value="4" href="#">Pub Quiz Quality</a></li>
-					<li><a data-value="5" href="#">Playlist Quality</a></li>
+					<li><a data-value="3" href="#">Pub Quiz</a></li>
+					<li><a data-value="4" href="#">Atmosphere</a></li>
+					<li><a data-value="5" href="#">Playlist</a></li>
 					</ul>
                   </div>
                 </div>
@@ -457,6 +457,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#UserCardName").html("Eliminated");
+                $("#UserFloorSticky").html("&nbsp&nbsp");
+                $("#UserPintPrice").html("&nbsp&nbsp&nbsp");
+                $("#UserPubQuiz").html("&nbsp&nbsp");
+                $("#UserAtmosphere").html("&nbsp&nbsp");
+                $("#UserPlaylist").html("&nbsp&nbsp");
+                $("#UserCardNo").html(0);
+                }else{
                 $("#UserCardName").html(json["name"]);
                 $("#UserFloorSticky").html(json["floorSticky"]);
                 $("#UserPintPrice").html(json["pintPrice"]);
@@ -464,6 +473,7 @@
                 $("#UserAtmosphere").html(json["atmosphere"]);
                 $("#UserPlaylist").html(json["playlist"]);
                 $("#UserCardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -567,7 +577,7 @@
             document.getElementById("mainButton").onclick = function(){
             showCards();
             }
-            chosenCategory()
+            setTimeout(function(){chosenCategory();}, 1);
             $('#mainButton').prop('disabled', false);
             $('#dropdownMenuLink').prop('disabled', true);       
 				});
@@ -633,6 +643,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai1CardName").html("Eliminated");
+                $("#ai1FloorSticky").html("&nbsp&nbsp");
+                $("#ai1PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai1PubQuiz").html("&nbsp&nbsp");
+                $("#ai1Atmosphere").html("&nbsp&nbsp");
+                $("#ai1Playlist").html("&nbsp&nbsp");
+                $("#ai1CardNo").html(0);
+                }else{
                 $("#ai1CardName").html(json["name"]);
                 $("#ai1FloorSticky").html(json["floorSticky"]);
                 $("#ai1PintPrice").html(json["pintPrice"]);
@@ -640,6 +659,7 @@
                 $("#ai1Atmosphere").html(json["atmosphere"]);
                 $("#ai1Playlist").html(json["playlist"]);
                 $("#ai1CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -658,6 +678,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai2CardName").html("Eliminated");
+                $("#ai2FloorSticky").html("&nbsp&nbsp");
+                $("#UserPintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai2PubQuiz").html("&nbsp&nbsp");
+                $("#ai2Atmosphere").html("&nbsp&nbsp");
+                $("#ai2Playlist").html("&nbsp&nbsp");
+                $("#ai2CardNo").html(0);
+                }else{
                 $("#ai2CardName").html(json["name"]);
                 $("#ai2FloorSticky").html(json["floorSticky"]);
                 $("#ai2PintPrice").html(json["pintPrice"]);
@@ -665,6 +694,7 @@
                 $("#ai2Atmosphere").html(json["atmosphere"]);
                 $("#ai2Playlist").html(json["playlist"]);
                 $("#ai2CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -683,6 +713,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai3CardName").html("Eliminated");
+                $("#ai3FloorSticky").html("&nbsp&nbsp");
+                $("#ai3PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai3PubQuiz").html("&nbsp&nbsp");
+                $("#UserAtmosphere").html("&nbsp&nbsp");
+                $("#ai3Playlist").html("&nbsp&nbsp");
+                $("#ai3CardNo").html(0);
+                }else{
                 $("#ai3CardName").html(json["name"]);
                 $("#ai3FloorSticky").html(json["floorSticky"]);
                 $("#ai3PintPrice").html(json["pintPrice"]);
@@ -690,6 +729,7 @@
                 $("#ai3Atmosphere").html(json["atmosphere"]);
                 $("#ai3Playlist").html(json["playlist"]);
                 $("#ai3CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -708,6 +748,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai4CardName").html("Eliminated");
+                $("#ai4FloorSticky").html("&nbsp&nbsp");
+                $("#ai4PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai4PubQuiz").html("&nbsp&nbsp");
+                $("#ai4Atmosphere").html("&nbsp&nbsp");
+                $("#ai4Playlist").html("&nbsp&nbsp");
+                $("#ai4CardNo").html(0);
+                }else{
                 $("#ai4CardName").html(json["name"]);
                 $("#ai4FloorSticky").html(json["floorSticky"]);
                 $("#ai4PintPrice").html(json["pintPrice"]);
@@ -715,6 +764,7 @@
                 $("#ai4Atmosphere").html(json["atmosphere"]);
                 $("#ai4Playlist").html(json["playlist"]);
                 $("#ai4CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request

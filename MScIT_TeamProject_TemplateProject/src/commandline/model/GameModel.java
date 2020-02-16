@@ -7,7 +7,7 @@ public class GameModel {
 
 	private Deck communalDeck;
 	private Deck mainDeck;
-	private ArrayList<Player> player;
+	private ArrayList<Player> playerArray;
 	private int activePlayer;
 	private int numOfRounds; // update somewhere within methods or remove from the class entirely
 	private int numOfDraws; // this doesn't get updated - suggest to remove
@@ -20,19 +20,21 @@ public class GameModel {
 		this.mainDeck = inputDeck;
 		this.communalDeck = new Deck();
 		this.mainDeck.shuffleDeck();
-		player = new ArrayList<Player>();
+		playerArray = new ArrayList<Player>();
 		// sets you as player and adds to array list
-		player.add(new Player());
-		player.get(0).setName("You");
+		playerArray.add(new Player());
+		playerArray.get(0).setName("You");
+		playerArray.get(0).setPlayerID(0);
 		// adds AI players to array list
 		for (int i = 1; i < numAIPlayers; i++) {
-			player.add(new Player());
-			player.get(i).setName("AI Player " + i);
+			playerArray.add(new Player());
+			playerArray.get(i).setName("AI Player " + i);
+			playerArray.get(i).setPlayerID(i);
 		}
 		// deals cards to all players
 		int k = 0;
 		do{
-			player.get(k).addOneCard(mainDeck.getAndRemoveTopCard());
+			playerArray.get(k).addOneCard(mainDeck.getAndRemoveTopCard());
 			k++;
 			if(k>=numAIPlayers){
 				k=0;
@@ -60,7 +62,7 @@ public class GameModel {
 
 	// returns active players top category if AI player
 	public CategoryTypes AIPlayerTopCategory(int activePlayer) {
-		CategoryTypes topCategory = player.get(activePlayer).getDeck().getTopCard().getTopCategory().getType();
+		CategoryTypes topCategory = playerArray.get(activePlayer).getDeck().getTopCard().getTopCategory().getType();
 		return topCategory;
 	}
 
@@ -69,17 +71,17 @@ public class GameModel {
 
 	// getting all players top cards and moving them to main deck
 	public void collectTopCards() {
-		for (int i = 0; i < player.size(); i++) {
+		for (int i = 0; i < playerArray.size(); i++) {
 			//System.out.println(player.get(i).getName());
-			mainDeck.addCard(player.get(i).getDeck().getAndRemoveTopCard());
+			mainDeck.addCard(playerArray.get(i).getDeck().getAndRemoveTopCard());
 			//System.out.println("maindeck size:"+mainDeck.sizeOfDeck());
 		}
 	}
 
 	// getting all players top cards and moving them to main deck
 	public void removeTopCards() {
-		for (int i = 0; i < player.size(); i++) {
-			player.get(i).getDeck().removeTopCard();
+		for (int i = 0; i < playerArray.size(); i++) {
+			playerArray.get(i).getDeck().removeTopCard();
 		}
 	}
 
@@ -150,7 +152,7 @@ public class GameModel {
 			System.out.println("we fucked up"); // take out later
 		} else if (resultInt > -1) {
 			activePlayer = resultInt; // sets activePlayer to index number of winner
-			player.get(resultInt).addCards(communalDeck);
+			playerArray.get(resultInt).addCards(communalDeck);
 			emptyCommunal();
 		}
 	}
@@ -183,10 +185,10 @@ public class GameModel {
 	// removes eliminated players from player arraylist
 	public String eliminateLoser() {
 		String eliminated = "";
-		for(int i = 0; i<player.size(); i++) {
-			if(player.get(i).isEmpty()) {
-				eliminated += player.get(i).getName() + " has been ELIMINATED\n";
-				player.remove(i);
+		for(int i = 0; i<playerArray.size(); i++) {
+			if(playerArray.get(i).isEmpty()) {
+				eliminated += playerArray.get(i).getName() + " has been ELIMINATED\n";
+				playerArray.remove(i);
 				i--;
 			}
 		}return eliminated;
@@ -203,9 +205,9 @@ public class GameModel {
 	//			gameWinner = player.get(i);
 	//			winner = player.get(i) + " has won the game!";
 	//		}
-		if(player.size()==1){
-			gameWinner = player.get(0);
-			winner="Game end\n\nThe overall winner was "+player.get(0).getName();
+		if(playerArray.size()==1){
+			gameWinner = playerArray.get(0);
+			winner="Game end\n\nThe overall winner was "+playerArray.get(0).getName();
 		}
 		return winner;
 	}
@@ -237,7 +239,7 @@ public class GameModel {
 	}
 
 	public ArrayList<Player> getPlayerArray() {
-		return player;
+		return playerArray;
 	}
 
 	public Deck getMainDeck() {
@@ -245,7 +247,7 @@ public class GameModel {
 	}
 
 	public int numberOfPlayers(){
-		return player.size();
+		return playerArray.size();
 	}
 
 	public Card getRoundWinningCard() {
@@ -254,8 +256,8 @@ public class GameModel {
 
 	public int findPlayerIndex(String playerName){
 		int result=-1;
-		for (int i = 0; i < player.size(); i++) {
-			if(player.get(i).getName().equalsIgnoreCase(playerName)){
+		for (int i = 0; i < playerArray.size(); i++) {
+			if(playerArray.get(i).getName().equalsIgnoreCase(playerName)){
 				result=i;
 			}
 		}

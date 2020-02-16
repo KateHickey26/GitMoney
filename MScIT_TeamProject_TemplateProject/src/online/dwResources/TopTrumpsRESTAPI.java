@@ -154,7 +154,11 @@ GameModel game;
 
 	@GET
 	@Path("/humancard")
-
+	/**
+	 * 
+	 * @return json version of card
+	 * or if card is null (player has been eliminated) will return card name as eliminatec
+	 */
 	public String returnHumanCard(){
 		Gson gson = new Gson();
 		String json = gson.toJson(controller.getHumanCard());
