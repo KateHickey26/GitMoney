@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <!-- Stylising the cards with css-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+        <!-- importing bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>
+        Glasgow Bars Top Trumps
+    </title>
+    <!-- required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- creates rectangles to represent cards - not sure if this is the correct way to do this -->
+<style>
+    
+.rectangle {
+  height: 200px;
+  width: 150px;
+  background-color: rgb(235, 179, 179);
+}
+</style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class ="row">
+                <div class ="col">
+                    <h1 class="blockquote text-center">
+                        Glasgow Bars Top Trumps
+                    </h1>
+                </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                Information
+                 <div class="rectangle">
+                     <div>
+                         <p>
+                         Round Number: <br>
+                         Active Player: <br>
+                         Category Chosen: <br>
+                    
+
+                        </p>
+                        </div>
+                 </div>
+                 <button onclick="MyFunction()" type="button" class="btn btn-success">Next</button>
+                </div> 
+
+                <!-- human player card -->
+              <div class="col-sm">
+                Human Player <span class="badge badge-pill badge-dark">XX</span>
+                <div class="card", style="width:80%" style="height:100%;">
+                    <div class ="container">
+                        <div class ="card-header">Card Name </div>
+                            <p>
+                                Stat1<br>
+                                Stat2<br>
+                                Stat3<br>
+                                Stat4<br>
+                                Stat5<br>
+                            </p>
+                        </div>
+                      
+    
+                    </div>
+              </div>
+
+              <div class="col-sm">
+                AI Player 1 <span class="badge badge-pill badge-dark">XX</span>
+                <div class="card", style="width:80%" style="height:100%;">
+                    <div class ="container">
+                        <div class ="card-header">Card Name </div>
+                            <p>
+                                Stat1<br>
+                                Stat2<br>
+                                Stat3<br>
+                                Stat4<br>
+                                Stat5<br>
+                            </p>
+                        </div>
+                      
+    
+                    </div>
+              </div>
+
+              <div class="col-sm">
+                  AI Player 2 <span class="badge badge-pill badge-dark">XX</span>
+                  <div class="card", style="width:80%" style="height:100%;">
+                    <div class ="container">
+                        <div class ="card-header">Card Name </div>
+                            <p>
+                                Stat1<br>
+                                Stat2<br>
+                                Stat3<br>
+                                Stat4<br>
+                                Stat5<br>
+                            </p>
+                        </div>
+                      
+    
+                    </div>
+              </div>
+            </div>
+        </div>
+
+        <div class = "container">
+            <div class="row">
+
+                <div class="col-sm">
+                  <!-- next button, and select category drop down menu-->
+                  <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Choose a category
+                    </a>
+                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" onclick="PintPriceFunction()" href="#">Pint Price</a>
+                    <a class="dropdown-item" onclick="AtmosphereFunction()" href="#">Atmosphere</a>
+                    <a class="dropdown-item" onclick="PubQuizFunction()" href="#">Pub Quiz Quality</a>
+                    <a class="dropdown-item" onclick="MusicQualityFunction()" href="#">Music Quality</a>
+                    <a class="dropdown-item" onclick="StickyFunction()" href="#">Floor Stickiness</a>
+                  </div>
+                </div>
+                  </div>
+               
+                <div class="col-sm">
+                  AI Player 3 <span class="badge badge-pill badge-dark">XX</span>
+                  <div class="card", style="width:80%" style="height:100%;">
+                    <div class ="container">
+                        <div class ="card-header">Card Name </div>
+                            <p>
+                                Stat1<br>
+                                Stat2<br>
+                                Stat3<br>
+                                Stat4<br>
+                                Stat5<br>
+                            </p>
+                        </div>
+                      
+    
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                  AI Player 4 <span class="badge badge-pill badge-dark">XX</span>
+                  <div class="card", style="width:80%" style="height:100%;">
+                    <div class ="container">
+                        <div class ="card-header">Card Name </div>
+                            <p>
+                                Stat1<br>
+                                Stat2<br>
+                                Stat3<br>
+                                Stat4<br>
+                                Stat5<br>
+                            </p>
+                        </div>
+                      
+    
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    AI Player 5 <span class="badge badge-pill badge-dark">15</span>
+                <!-- Julia's attempt to card-->
+                <div class="card", style="width:80%" style="height:100%;">
+                <div class ="container">
+                    <div class ="card-header">Card Name </div>
+                        <p>
+                            Stat1<br>
+                            Stat2<br>
+                            Stat3<br>
+                            Stat4<br>
+                            Stat5<br>
+                        </p>
+                    </div>
+                  
+
+                </div>
+
+                
+            </div>
+        
+
+          <script type = "text/javascript">
+            function MyFunction(){
+                var url = "https://www.guu.co.uk/";
+                window.location.replace(url);
+            }
+          </script>
+        
+        <!-- JavaScript if function from google
+           if (condition) {   }
+            //  block of code to be executed if the condition is true -->
+
+        <script type = "text/javascript">
+            function PintPriceFunction(){
+            var url = "https://www.reddit.com/";
+            window.location.replace(url);
+         }
+         </script>
+         <script type = "text/javascript">
+          function AtmosphereFunction(){
+             var url = "https://www.reddit.com/";
+             window.location.replace(url);
+          }
+          </script>
+          <script type = "text/javascript">
+            function PubQuizFunction(){
+               var url = "https://www.reddit.com/";
+               window.location.replace(url);
+            }
+            </script>
+            <script type = "text/javascript">
+              function MusicQualityFunction(){
+                 var url = "https://www.reddit.com/";
+                 window.location.replace(url);
+              }
+              </script>
+              <script type = "text/javascript">
+                function StickyFunction(){
+                   var url = "https://www.reddit.com/";
+                   window.location.replace(url);
+                }
+                </script>
+        
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    </body>
+
+</html>
