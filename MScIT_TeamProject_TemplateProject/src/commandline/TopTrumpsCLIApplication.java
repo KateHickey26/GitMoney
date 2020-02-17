@@ -114,16 +114,9 @@ public class TopTrumpsCLIApplication {
 			roundCounter = 1;
 			gameOver = false;
 			while (!gameOver) {
-
-				/*
-				 * System.out.println("\nThere are "+game.numberOfPlayers()
-				 * +" players in the game");
-				 * System.out.println("\nPlayers played the following "+game.getMainDeck().
-				 * sizeOfDeck()+" cards:"); for (int k = 0; k < game.getMainDeck().sizeOfDeck();
-				 * k++) { System.out.println(game.getMainDeck().seeCard(k).getName()); }
+				/**
+				 * this will continue to loop while the user has not decided they want to quit
 				 */
-
-				// System.out.println("Active player: "+game.getActivePlayer());
 				humanIsActivePlayer = false;
 				if (game.getPlayerArray().get(game.getActivePlayer()).getName() == "You") {
 					humanIsActivePlayer = true;
@@ -140,7 +133,7 @@ public class TopTrumpsCLIApplication {
 					if (game.getPlayerArray().get(0).getName() == "You") {
 						/**
 						 * gets all the category names and values to print out the users card
-						 * probably should have made this a mehtod as is used multiple times
+						 * probably should have made this a stand alone methtod as is used multiple times
 						 */
 						System.out.println("Your drew '" + game.getPlayerArray().get(0).getDeck().seeCard(0).getName()
 								+ "':\n" + "   > " + game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(0) + ": "
@@ -156,39 +149,27 @@ public class TopTrumpsCLIApplication {
 						System.out.println(
 								"There are " + game.getPlayerArray().get(0).getDeck().sizeOfDeck() + " cards in your deck");
 					}
-
-					chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
-					// need method public Category chooseAICategory(# ID of active player i.e.
-					// game.getActivePLayer())
-					// where active AI player chooses their category based on highest value on their
-					// top card
-
-					// chosenCategory =
-					// game.getPlayer().get(0).getDeck().getTopCard().getCats()[0].getType();
-
-					game.collectTopCards();
-					// need method public void collectTopCards()
-					// which collects and puts everyone's top card in mainDeck (aka activeDeck) here
-
-					// ####### System.out.println("Maindeck size at creation:" +
-					// game.getMainDeck().sizeOfDeck());
-
-
-					roundWinner = game.getRoundWinner(chosenCategory);
-					// need method public int getRoundWinner(Category object chosen by active AI
-					// player)
-					// which determines the winner of the round and returns the integer # number of
-					// the winning player
-					// it also needs to allow for draw (using say number -1)
-
-					// add code to allow for draw (i.e. roundWinner = -1)
-					// System.out.println("Roundwinner: " + roundWinner);
-
-					/*
-					 * if (roundWinner == -1) { System.out.println("############# Draw"); }
+					/**
+					 * for the ai player chooses the highest value on the card
 					 */
-
+					chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
+					/**
+					 * takes all the top cards of the active players and adds them to a lit
+					 * so they can be checked for the winner
+					 */
+					game.collectTopCards();
+					/**
+					 * passes the chosen category and checks for a winning card
+					 */
+					roundWinner = game.getRoundWinner(chosenCategory);
+					/**
+					 * checks if there is a round winner
+					 * if the value is not -1 then there must be a winner
+					 */
 					if (roundWinner > -1) {
+						/**
+						 * again prints out the winner and the values of the winning card
+						 */
 						gameData.winnerCounter(game.getPlayerArray().get(roundWinner));
 						System.out.println("Round " + roundCounter + ": Player "
 								+ game.getPlayerArray().get(roundWinner).getName() + " won this round");
@@ -206,23 +187,17 @@ public class TopTrumpsCLIApplication {
 								+ game.getRoundWinningCard().categoryValue(4));
 						System.out.println("Comparison category: " + chosenCategory.getName());
 					}
-					// need to make the above output match perfectly with the sample output on
-					// moodle
-					// i.e. will need an arrow pointing to the winning category
-
-					// System.out.println("Winner: "+roundWinner);
-
-					// System.out.println("Chosen category: "+chosenCategory.getName());
-
-					// game.removeTopCards();
-					// NOT WORKING YET!!!!
+					
+					/**
+					 * will transfer the card to the winners deck and if there is a draw
+					 * will keep them in the communal deck
+					 */
 					game.transferCards(roundWinner);
-					// need method public void giveCardsToRoundWinner()
-					// which moves cards in mainDeck (aka activeDeck) & communalDeck to winner (or
-					// moves them to communalDeck if draw)
 
-					// System.out.println("Transfer successful");
-
+					/**
+					 * sets the active player as the winner if there has been a winner
+					 * 
+					 */
 					if (roundWinner > -1) {
 						game.setActivePlayer(roundWinner);
 						activePlayerName = game.getPlayerArray().get(game.getActivePlayer()).getName();
