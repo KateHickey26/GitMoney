@@ -9,30 +9,41 @@ public class GameModel {
 	private Deck mainDeck;
 	private ArrayList<Player> player;
 	private int Player;
-	private int numOfRounds; // update somewhere within methods or remove from the class entirely
-	private int numOfDraws; // this doesn't get updated - suggest to remove
+	private int numOfRounds; 
+	private int numOfDraws; 
 	private Player gameWinner;
 	private Card roundWinningCard;
 	private int activePlayer;
 
 
-	// constructor for game instance
+
 	public GameModel(int numAIPlayers, Deck inputDeck) {
+		/**
+		 * intitates the game model based on the number of AI players and alse the intput deck
+		 * which is the initial deck of all 40 cards. 
+		 * 
+		 * Shuffles al the cards after they have been passed as well
+		 */
 		this.mainDeck = inputDeck;
 		this.communalDeck = new Deck();
 		this.mainDeck.shuffleDeck();
 		player = new ArrayList<Player>();
-		// sets you as player and adds to array list
+		/**
+		 * the user is always initated as player 0
+		 * the ai players and then initiated based on the number chosen
+		 */
 		player.add(new Player());
 		player.get(0).setName("You");
 		player.get(0).setPlayerID(0);
-		// adds AI players to array list
+		
 		for (int i = 1; i < numAIPlayers; i++) {
 			player.add(new Player());
 			player.get(i).setName("AI Player " + i);
 			player.get(i).setPlayerID(i);
 		}
-		// deals cards to all players
+		/**
+		 * takes the initial deck of all 40 cards and deals it out to all of the players evenlky
+		 */
 		int k = 0;
 		do{
 			player.get(k).addOneCard(mainDeck.getAndRemoveTopCard());
@@ -42,31 +53,24 @@ public class GameModel {
 			}
 		}while(mainDeck.sizeOfDeck()>0);
 
-		/*
-		for (int j = 0; j < mainDeck.getMainDeck().size(); j++) {
-			for (int k = 0; k < player.size(); k++) {
-				player.get(k).addOneCard(mainDeck.getAndRemoveTopCard());
-			}
-		}
-		 */
 		activePlayer = randomFirstPlayer(numAIPlayers);
 	}
 
 
-	// randomises first player
 	public int randomFirstPlayer(int numAIPlayers) {
+		/**
+		 * picks a randomint to decide who the first player will be
+		 */
 		return new Random().nextInt(numAIPlayers);
 	}
 
-	// print human player their card - print method in Card class?
-
-
-	// returns active players top category if AI player
+	
 	public CategoryTypes AIPlayerTopCategory(int activePlayer) {
 
 		CategoryTypes topCategory = CategoryTypes.FLOOR;
-		// default category in case of loop failure
-
+		/**
+		 * gets the top category for the ai player when its there turn to choose
+		 */
 		for (int i = 0; i < player.size(); i++) {
 			if (player.get(i).getPlayerID() == activePlayer) {
 				topCategory = player.get(i).getDeck().getTopCard().getTopCategory().getType();
@@ -76,10 +80,12 @@ public class GameModel {
 	}
 
 
-	//increase round counter ??
-
-	// getting all players top cards and moving them to main deck
+	
 	public void collectTopCards() {
+		/**
+		 * takes all th4 players top cards from there deck and moves them to the main deck
+		 * this is so they be checked for a winner
+		 */
 		for (int i = 0; i < player.size(); i++) {
 			//System.out.println(player.get(i).getName());
 			mainDeck.addCard(player.get(i).getDeck().getAndRemoveTopCard());
@@ -99,7 +105,13 @@ public class GameModel {
 		int roundWinner=-2;
 		int roundWinnerCount=0;
 		Card winningCard=null;
+		/**
+		 * gets the highest score for the player at position 0 and uses that as the benchmark
+		 */
 		int highestScore = mainDeck.seeCard(0).matchCategory(chosenCategory).getScore();
+		/**
+		 * finds if there are any higher values compared to index 0
+		 */
 		for (int i = 0; i < mainDeck.getDeckArray().size(); i++) {
 			if(mainDeck.seeCard(i).matchCategory(chosenCategory).getScore()>highestScore){
 				highestScore=mainDeck.seeCard(i).matchCategory(chosenCategory).getScore();
@@ -107,6 +119,10 @@ public class GameModel {
 		}
 		//System.out.println("maindeck size:"+mainDeck.getMainDeck().size());
 		for (int k = 0; k < mainDeck.getDeckArray().size(); k++) {
+			/**
+		 * checks if there are any matching values
+		 * if there is a matching value adds one to round winner counter
+		 */
 			if(mainDeck.seeCard(k).matchCategory(chosenCategory).getScore()==highestScore){
 				roundWinner=k;
 				winningCard=mainDeck.seeCard(k);
@@ -119,47 +135,54 @@ public class GameModel {
 		this.roundWinningCard=winningCard;
 		return roundWinner;
 	}
+	// public int getRoundWinner(CategoryTypes chosenCategory) {
+	// 	int roundWinner=-2;
+	// 	Card winningCard=null;
+	// 	/**
+	// 	 * gets the highest score for the player at position 0 and uses that as the benchmark
+	// 	 */
+	// 	int highestScore = mainDeck.seeCard(0).matchCategory(chosenCategory).getScore();
+	// 	/**
+	// 	 * finds if there are any higher values compared to index 0
+	// 	 */
+	// 	for (int i = 0; i < mainDeck.getDeckArray().size(); i++) {
+	// 		if(mainDeck.seeCard(i).matchCategory(chosenCategory).getScore() > highestScore) {
+	// 			highestScore = mainDeck.seeCard(i).matchCategory(chosenCategory).getScore();
+	// 			roundWinner = i;
+	// 			winningCard=mainDeck.seeCard(i);
+	// 		}
+	// 	}
+	// 	/**
+	// 	 * checks id there are any matching values
+	// 	 * if there is a matching value sets round winner to -1
+	// 	 */
+	// 	for (int k = 0; k < mainDeck.getDeckArray().size(); k++) {
+	// 		if(k != roundWinner){
+	// 			if(mainDeck.seeCard(k).matchCategory(chosenCategory).getScore() == highestScore){
+	// 				roundWinner= -1;}
+				
+	// 			}
+	// 		}
+	// 	/**
+	// 	 * sets the round winning card - or equal round winning card
+	// 	 * returns the value of round winner whihc is the index in the player array or -1 for draw
+	// 	 */
+	// 	this.roundWinningCard=winningCard;
+	// 	return roundWinner;
+	// }
 
-	// finding round winner and returning their ID number; returns -1 if draw; returns -2 if method failed (testing)
-	public int DONOTUSEgetRoundWinner(CategoryTypes chosenCategory) {
-
-		int resultInt = -2; // initialised number that we don't want returned to make testing easier; change before turning in
-
-		ArrayList<Card> topCards = mainDeck.getDeckArray();
-
-		Card winningCard = topCards.get(0);
-		int maxScore = 0;
-
-		for (int i = 0; i < topCards.size() - 1; i++) {
-			if (winningCard.matchCategory(chosenCategory).compareTo(topCards.get(i + 1).matchCategory(chosenCategory)) == 1) {
-				if (topCards.get(i).matchCategory(chosenCategory).getScore() > maxScore) {
-					maxScore = topCards.get(i).matchCategory(chosenCategory).getScore();
-					winningCard = topCards.get(i);
-					resultInt = i;
-				}
-			} else if (winningCard.matchCategory(chosenCategory).compareTo(topCards.get(i + 1).matchCategory(chosenCategory)) == 2) {
-				if (topCards.get(i + 1).matchCategory(chosenCategory).getScore() > maxScore) {
-					maxScore = topCards.get(i + 1).matchCategory(chosenCategory).getScore();
-					winningCard = topCards.get(i + 1);
-					resultInt = i + 1;
-				}
-			} else {
-				resultInt = -1; // draw
-			}
-		}
-		this.roundWinningCard=winningCard;
-		return resultInt;
-	}
 
 
-	// moves cards from main deck to communal deck
-	// if not draw, gives cards to winner and empties communal deck
+	
 	public void transferCards(int resultInt) {
+		/**
+		 * moves all the cards from the main deck to the communal deck
+		 * this allows them to be shuffled beofre being placed back into the winners deck
+		 * or they can be stored there is a draw
+		 */
         transferToCommunal(mainDeck);
         emptyMainDeck();
-        if (resultInt == -2) {
-            System.out.println("ERROR"); // take out later
-        } else if (resultInt == -1) {
+       if (resultInt == -1) {
             System.out.println("There has been a draw"); // test line
             // axctive player stays the same // sets activePlayer to index number of winner
             //player.get(resultInt).addCards(communalDeck);
@@ -173,32 +196,38 @@ public class GameModel {
     }
 
 
-	// moves cards from main deck to communal deck and shuffles
+	
 	public void transferToCommunal(Deck cards) {
-		//System.out.println("Trying to add "+cards.sizeOfDeck()+" cards");
-		//System.out.println("To communaldeck of size: "+communalDeck.sizeOfDeck());
-		//for (int k = 0; k < cards.sizeOfDeck(); k++) {
-		//	System.out.println(cards.seeCard(k).toString());
-		//}
+		/**
+		 * adds a the set of cards passed to the communal deck
+		 * these shuffles these cards
+		 */
 		communalDeck.addSetOfCards(cards);
-		//System.out.println("Trying to shuffle now");
 		communalDeck.shuffleDeck();
 	}
 
 
-	// empties communal deck
 	public void emptyCommunal() {
+		/**
+		 * clears the communal deck of all cards
+		 */
 		this.communalDeck.getDeckArray().clear();
 	}
 
 	public void emptyMainDeck() {
+		/**
+		 * clears the main deck of all cards
+		 */
 		this.mainDeck.getDeckArray().clear();
 	}
 
 
-	// check if player has no cards left, returns String of all players eliminated
-	// removes eliminated players from player arraylist
+	
 	public String eliminateLoser() {
+		/** 
+		 * check if player has no cards left, returns String of all players eliminated
+		 * removes eliminated players from player arraylist
+		 */
 		String eliminated = "";
 		for(int i = 0; i<player.size(); i++) {
 			if(player.get(i).isEmpty()) {
@@ -209,17 +238,12 @@ public class GameModel {
 		}return eliminated;
 	}
 
-
-	// checks if a player has won (full hand of 40 cards)
-	// returns String announcing winner
 	public String isGameOver() {
+		/**
+		 * checks if there is only one player left
+		 * then returns a string declaring the winner
+		 */
 		String winner = "";
-	//	for(int i=0; i<player.size(); i++) {
-	//		if (player.get(i).isFull()) {
-	//			// saving winner info (for stats) in gameWinner variable
-	//			gameWinner = player.get(i);
-	//			winner = player.get(i) + " has won the game!";
-	//		}
 		if(player.size()==1){
 			gameWinner = player.get(0);
 			winner="Game end\n\nThe overall winner was "+player.get(0).getName();
@@ -232,7 +256,6 @@ public class GameModel {
 		return numOfRounds;
 	}
 
-	// to be called at beginning of each round in TopTrumpsCLIApplication
 	public void incrementNumOfRounds() {
 		this.numOfRounds++;
 	}
@@ -245,7 +268,6 @@ public class GameModel {
 		return gameWinner;
 	}
 
-	// ACTIVE PLAYER INTEGER NOW REFERS TO PLAYER ID
 	public int getActivePlayer() {
 		return this.activePlayer;
 	}
