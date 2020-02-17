@@ -13,6 +13,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
+import java.util.ArrayList;
+
+
+
 
 public class OnlineController {
     GameModel game;
@@ -24,23 +28,27 @@ public class OnlineController {
     CategoryTypes chosenCategory = null;
     int roundWinner;
     Boolean humanIsActive;
+    ArrayList<Player> playerList;
+    
+    // user input chooses how many AI players will be in game
+    // the deck is loaded 
     public OnlineController() {
-        deck = readInDeck("/Users/markmorrison/Desktop/GlasgowBars2.txt");
+        deck = readInDeck("GlasgowBars.txt");
 
-
-        
         aiPlayerNum = 5;
+
     }
 
-    public void startGame() {
+    public void startGame(){
 
         game = new GameModel(aiPlayerNum, deck);
-        // creating a new instance of the game creates a communal deck and
+        // creating a new instance of the game creates a communal deck and 
         // shuffles the main deck
-        // it creates an arraylist of players
-        // it deals the deck between the players
-        // randomly chooses an active player
+        // it creates an arraylist of players 
+        // it deals the deck between the players 
+        // randomly chooses an active player 
         rInfo = new RoundInfo(game);
+        playerList = game.getPlayerArray();
         // return rInfo; //maybe change return?? instead we could have a getRInfo method
         // that we call at any time
     }
@@ -73,6 +81,7 @@ public class OnlineController {
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
         } else if (roundWinner == -1) {
+            game.removeTopCards();
             game.transferToCommunal(game.getMainDeck());
         } else {
             for (int i = 0; i < game.getPlayerArray().size(); i++) {
@@ -121,12 +130,13 @@ public class OnlineController {
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
             // maybe change to game winner idk?
-        } else if (roundWinner != -1) {
-            game.setActivePlayer(roundWinner);
+            // } else if (roundWinner == -1){
+            // game.setActivePlayer(roundWinner);
         } else {
             for (int i = 0; i < game.getPlayerArray().size(); i++) {
                 if (game.getPlayerArray().get(i).getPlayerID() == roundWinnerID) {
                     this.roundWinner = i;
+                    game.setActivePlayer(this.roundWinner);
                 }
             }
         }
@@ -134,6 +144,10 @@ public class OnlineController {
         game.incrementNumOfRounds();
 
         rInfo.setRoundInfo(game);
+    }
+
+    public ArrayList<Player> getPlayerList() {
+        return this.playerList;
     }
 
     public RoundInfo getRoundInfo() {
@@ -144,7 +158,7 @@ public class OnlineController {
         return game.getActivePlayer();
     }
 
-    public CategoryTypes getChosenCatergory() {
+    public CategoryTypes getChosenCategory() {
         return this.chosenCategory;
     }
 
@@ -156,6 +170,8 @@ public class OnlineController {
         return winnerIs;
     }
 
+    // method to return the human player's card
+    // method to return the human player's card
     public Map getHumanCard() {
         Player hPlayer = null;
         for (int i = 0; i < this.game.getPlayerArray().size(); i++) {
@@ -163,6 +179,7 @@ public class OnlineController {
                 hPlayer = this.game.getPlayerArray().get(i);
             }
         }
+
         Map humanCard = hPlayer.getDeck().getTopCard().getCardAsMap();
         humanCard.put("deckSize", "" + hPlayer.getDeck().sizeOfDeck());
         return humanCard;
@@ -177,6 +194,8 @@ public class OnlineController {
                 Ai1 = this.game.getPlayerArray().get(i);
             }
         }
+
+        this.game.getPlayerArray().get(1);
         Map Ai1Card = Ai1.getDeck().getTopCard().getCardAsMap();
         Ai1Card.put("deckSize", "" + Ai1.getDeck().sizeOfDeck());
         return Ai1Card;
@@ -191,6 +210,7 @@ public class OnlineController {
                 Ai2 = this.game.getPlayerArray().get(i);
             }
         }
+
         Map Ai2Card = Ai2.getDeck().getTopCard().getCardAsMap();
         Ai2Card.put("deckSize", "" + Ai2.getDeck().sizeOfDeck());
         return Ai2Card;
@@ -205,6 +225,7 @@ public class OnlineController {
                 Ai3 = this.game.getPlayerArray().get(i);
             }
         }
+
         Map Ai3Card = Ai3.getDeck().getTopCard().getCardAsMap();
         Ai3Card.put("deckSize", "" + Ai3.getDeck().sizeOfDeck());
         return Ai3Card;
@@ -217,41 +238,47 @@ public class OnlineController {
         for (int i = 0; i < this.game.getPlayerArray().size(); i++) {
             if (this.game.getPlayerArray().get(i).getPlayerID() == 4) {
                 Ai4 = this.game.getPlayerArray().get(i);
+                }
             }
+    
+            Map Ai4Card = Ai4.getDeck().getTopCard().getCardAsMap();
+            Ai4Card.put("deckSize", "" + Ai4.getDeck().sizeOfDeck());
+            return Ai4Card;
+            //making hashmap for card
         }
-        Map Ai4Card = Ai4.getDeck().getTopCard().getCardAsMap();
-        Ai4Card.put("deckSize", "" + Ai4.getDeck().sizeOfDeck());
-        return Ai4Card;
-        // making hashmap for card
-    }
-
+    
     private static Deck readInDeck(String pathName) {
 
-        // will read in info from the txt file containing deck and create a deck object
-        // based on this
+        // will read in info from the txt file containing deck and create a deck object based on this
         Deck inputDeck = new Deck();
         try {
             Scanner scanner = new Scanner(new BufferedReader(new FileReader(pathName)));
-            while (scanner.hasNextLine()) {
+            while(scanner.hasNextLine()) {
                 String name = scanner.next();
-                int sticky = (int) Integer.parseInt(scanner.next());
-                int pintPrice = (int) Integer.parseInt(scanner.next());
-                int pubQuiz = (int) Integer.parseInt(scanner.next());
-                int atmosphere = (int) Integer.parseInt(scanner.next());
-                int music = (int) Integer.parseInt(scanner.next());
-                // System.out.println("here");
-                inputDeck.addCard(new Card(name, sticky, pintPrice, pubQuiz, atmosphere, music));
+				int sticky = (int) Integer.parseInt(scanner.next());
+				int pintPrice = (int) Integer.parseInt(scanner.next());
+				int pubQuiz = (int) Integer.parseInt(scanner.next());
+				int atmosphere = (int) Integer.parseInt(scanner.next());
+				int music = (int) Integer.parseInt(scanner.next());
+				//System.out.println("here");
+				inputDeck.addCard(new Card(name, sticky, pintPrice, pubQuiz, atmosphere, music));
             }
             scanner.close();
+            
 
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
-        } catch (NoSuchElementException ex2) {
+        } 
+        catch(NoSuchElementException ex2) {
             ex2.printStackTrace();
-        }
-
+        } 
+        
         return inputDeck;
 
+
+        
     }
+
+
 
 }

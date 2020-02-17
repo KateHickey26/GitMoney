@@ -5,9 +5,12 @@ import java.util.Collections;
 
 public class Deck {
 	private ArrayList<Card> mainDeck;
+	private Card blankCard;
 
 	public Deck() {
 		mainDeck = new ArrayList<Card>();
+
+		blankCard = new Card("ELIMINATED", 0,0,0,0,0);
 	}
 	
 	public Deck(ArrayList<Card> cards) {
@@ -34,6 +37,10 @@ public class Deck {
 	}
 	
 	public Card getTopCard() {
+
+		if (mainDeck.isEmpty()) {
+			return blankCard;
+		}
 		return mainDeck.get(0);
 		
 	}
@@ -46,8 +53,12 @@ public class Deck {
 		 * can use similar method for playing and moving into common pile
 		 */
 		Card firstCard = getTopCard();
-		mainDeck.remove(0);
-		return firstCard;
+
+		if (!mainDeck.isEmpty()) {
+			mainDeck.remove(0);
+			return firstCard;
+		}
+		return blankCard;
 	}
 
 	public void removeTopCard() {
@@ -103,6 +114,9 @@ public class Deck {
 //	}
 
 	public int sizeOfDeck(){
+		if (mainDeck.isEmpty()) {
+			return 0;
+		}
 		return mainDeck.size();
 	}
 }
