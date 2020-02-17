@@ -69,7 +69,7 @@ GameModel game;
 		oWriter = new ObjectMapper().writerWithDefaultPrettyPrinter();
         deckFile = conf.getDeckFile();
 		NUMBER_OF_PLAYERS = conf.getNumAIPlayers() + 1;
-		controller = new OnlineController(4);
+		controller = new OnlineController();
 
 	}
 	
@@ -116,7 +116,7 @@ GameModel game;
 
 	public String chosenCategory() throws JsonProcessingException{
 		Map<String, String> category = new HashMap<String, String>();
-        category.put("chosenCategory", controller.getChosenCatergory().getName());
+        category.put("chosenCategory", controller.getChosenCategory().getName());
 		Gson gson = new Gson();
 		String json = gson.toJson(category);
 		return json;
@@ -157,7 +157,12 @@ GameModel game;
 
 	public String returnHumanCard(){
 		Gson gson = new Gson();
-		String json = gson.toJson(controller.getHumanCard());
+		String json = "";
+		for (int i = 0; i < controller.getPlayerList().size(); i++) {
+			if (controller.getPlayerList().get(i).getPlayerID() == 0){
+		 		json = gson.toJson(controller.getHumanCard());
+			}
+		}
 		return json;
 	}
 
@@ -192,7 +197,12 @@ GameModel game;
 	 */
 	public String ai1TopCard(){
 		Gson gson = new Gson();
-		String json = gson.toJson(controller.getAi1TopCard());
+		String json = "";
+		for (int i = 0; i < controller.getPlayerList().size(); i++) {
+			if (controller.getPlayerList().get(i).getPlayerID() == 1){
+		 		json = gson.toJson(controller.getAi1TopCard());
+			}
+		}
 		return json;
 	}
 	@GET
@@ -203,7 +213,12 @@ GameModel game;
 	 */
 	public String ai2TopCard(){
 		Gson gson = new Gson();
-		String json = gson.toJson(controller.getAi2TopCard());
+		String json = "";
+		for (int i = 0; i < controller.getPlayerList().size(); i++) {
+			if (controller.getPlayerList().get(i).getPlayerID() == 2){
+		 		json = gson.toJson(controller.getAi2TopCard());
+			}
+		}
 		return json;
 	}
 	@GET
@@ -214,7 +229,12 @@ GameModel game;
 	 */
 	public String ai3TopCard(){
 		Gson gson = new Gson();
-		String json = gson.toJson(controller.getAi3TopCard());
+		String json = "";
+		for (int i = 0; i < controller.getPlayerList().size(); i++) {
+			if (controller.getPlayerList().get(i).getPlayerID() == 3){
+		 		json = gson.toJson(controller.getAi3TopCard());
+			}
+		}
 		return json;
 	}
 	@GET
@@ -225,7 +245,12 @@ GameModel game;
 	 */
 	public String ai4TopCard(){
 		Gson gson = new Gson();
-		String json = gson.toJson(controller.getAi4TopCard());
+		String json = "";
+		for (int i = 0; i < controller.getPlayerList().size(); i++) {
+			if (controller.getPlayerList().get(i).getPlayerID() == 4){
+		 		json = gson.toJson(controller.getAi4TopCard());
+			}
+		}
 		return json;
 	}
 

@@ -3,6 +3,7 @@ package commandline.model;
 public class Player {
 	private String name;
 	private Deck playerDeck;
+	private int playerID;
 
 	public Player() {
 		playerDeck = new Deck();
@@ -20,9 +21,18 @@ public class Player {
 	public String getName() {
 		return name;
 	}
+	public void setPlayerID(int ID){
+		this.playerID = ID;
+	}
+	public int getPlayerID(){
+		return this.playerID;
+	}
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	public Card getPlayersTopCard(){
+		return this.getDeck().getTopCard();
 	}
 
 	// adds cards to the bottom of the deck (probably);
@@ -38,7 +48,7 @@ public class Player {
 	//method to check if the player is the winner - they have all the cards 
 	public Boolean isFull() {
 		// 
-		if (playerDeck.getMainDeck().size() == 40) {
+		if (playerDeck.getDeckArray().size() == 40) {
 			return true;
 		} else
 			return false;
@@ -46,7 +56,7 @@ public class Player {
 	
 	// method to check if the player has lost - if they have 0 cards 
 	public Boolean isEmpty() {
-		if (playerDeck.getMainDeck().size() == 0) {
+		if (playerDeck.getDeckArray().size() == 0) {
 			return true;
 		} else
 			return false;

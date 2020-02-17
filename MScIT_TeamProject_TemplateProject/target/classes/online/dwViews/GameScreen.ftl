@@ -116,7 +116,7 @@
 											<p style="float: left;">Active Player:&nbsp</p><p id="activePlayer"></p>
                                         </div>
                                         <div>
-											<p style="float: left;">Category Chosen:&nbsp&nbsp&nbsp</p>
+											<p style="float: left;">Category Chosen:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                                         <p id="chosenCategory"></p>
                                         </div>
                                         <div>
@@ -243,9 +243,9 @@
                     <ul id="dropdown" class="dropdown-menu">
                     <li><a data-value="1" href="#">Floor Stickiness</a></li>
 					<li><a data-value="2" href="#">Pint Price</a></li>
-					<li><a data-value="3" href="#">Atmosphere</a></li>
-					<li><a data-value="4" href="#">Pub Quiz Quality</a></li>
-					<li><a data-value="5" href="#">Playlist Quality</a></li>
+					<li><a data-value="3" href="#">Pub Quiz</a></li>
+					<li><a data-value="4" href="#">Atmosphere</a></li>
+					<li><a data-value="5" href="#">Playlist</a></li>
 					</ul>
                   </div>
                 </div>
@@ -427,7 +427,9 @@
 		<!-- Here are examples of how to call REST API Methods -->
 		<script type="text/javascript">
             function gameStart(){
-        
+                /**
+                * initiates the start of the game 
+                */
             // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/gamestart"); // Request type and URL
 
@@ -439,6 +441,9 @@
 
             }
             function allAiCardInfo(){
+                /**
+                * calls all the ai card info methods which gets all the card data for those cards 
+                */
                 ai1CardInfo();
                 ai2CardInfo();
                 ai3CardInfo();
@@ -446,6 +451,10 @@
             }
 
             function userCardInfo(){
+                /**
+                * gets the users card data
+                * and should say whether the player has been eliminated
+                */
             // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/humancard"); // Request type and URL
 
@@ -457,6 +466,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#UserCardName").html("Eliminated");
+                $("#UserFloorSticky").html("&nbsp&nbsp");
+                $("#UserPintPrice").html("&nbsp&nbsp&nbsp");
+                $("#UserPubQuiz").html("&nbsp&nbsp");
+                $("#UserAtmosphere").html("&nbsp&nbsp");
+                $("#UserPlaylist").html("&nbsp&nbsp");
+                $("#UserCardNo").html(0);
+                }else{
                 $("#UserCardName").html(json["name"]);
                 $("#UserFloorSticky").html(json["floorSticky"]);
                 $("#UserPintPrice").html(json["pintPrice"]);
@@ -464,6 +482,7 @@
                 $("#UserAtmosphere").html(json["atmosphere"]);
                 $("#UserPlaylist").html(json["playlist"]);
                 $("#UserCardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -471,6 +490,11 @@
 
         }
         function chosenCategory(){
+            /**
+            * just gets the chosen category info
+            * needs to do this seperate to the round info because the round is finished by the time
+            * the category info is there so leaves the other info for the previous round
+             */
             // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/chosencategory"); // Request type and URL
 
@@ -492,6 +516,10 @@
 
         
             function roundInfo(){
+                /**
+                * updates all the game round info in the top left for each round
+                * 
+                */
             // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/roundinfo"); // Request type and URL
 
@@ -514,6 +542,11 @@
         }
 
         function playRound(){
+            /**
+             * this is the main pay round method this handles each game
+             * it works out who the active player is so it can call either the ai or the user method
+             * it then redirects to the nescesarry method
+             */
             userCardInfo();
             allAiCardInfo();
             roundInfo();
@@ -554,6 +587,11 @@
         }
 
         $(function(){
+            /**
+              * takes the input from the dropdown category choice 
+              * then passes this to the api to strat the human round 
+              * controls disabling buttons and drowpdown
+              */
 				$(".dropdown-menu li a").click(function () {
                     // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/userround?category=" + $(this).data('value')); // Request type and URL
@@ -567,7 +605,7 @@
             document.getElementById("mainButton").onclick = function(){
             showCards();
             }
-            chosenCategory()
+            setTimeout(function(){chosenCategory();}, 1);
             $('#mainButton').prop('disabled', false);
             $('#dropdownMenuLink').prop('disabled', true);       
 				});
@@ -575,6 +613,7 @@
 
 
         function aiPlayerRound(){
+            //calls the ai player round
 
             // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/computerround"); // Request type and URL
@@ -587,6 +626,9 @@
 
         }
         function showCards(){
+            /*
+             * makes all the ai player cards visable when the show cards button is pressed
+             */
             var elem = document.getElementById('ai1card');
             elem.style.visibility="visible";
             var elem2 = document.getElementById('ai2card');
@@ -601,6 +643,10 @@
             };
         }
         function hideCards(){
+            /*
+             * makes all the ai player cards hidden when the next round button 
+             */
+
             var elem = document.getElementById('ai1card');
             elem.style.visibility="hidden";
             var elem2 = document.getElementById('ai2card');
@@ -615,13 +661,10 @@
             setTimeout(function(){ playRound(); }, 500);
         }
 
-        function userRoundSelectedCategory(){
-				var menu = document.querySelector("aiplayer");
-				var number = menu.value;
-				alert("CORS not supported");
-			}
-
         function ai1CardInfo(){
+            /*
+             * this method and all the ones after are just for retrieving the ai card data
+            */
             // First create a CORS request, this is the message we are going to send (a get request in this case)
             var xhr = createCORSRequest('GET', "http://localhost:7777/toptrumps/ai1topcard"); // Request type and URL
 
@@ -633,6 +676,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai1CardName").html("Eliminated");
+                $("#ai1FloorSticky").html("&nbsp&nbsp");
+                $("#ai1PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai1PubQuiz").html("&nbsp&nbsp");
+                $("#ai1Atmosphere").html("&nbsp&nbsp");
+                $("#ai1Playlist").html("&nbsp&nbsp");
+                $("#ai1CardNo").html(0);
+                }else{
                 $("#ai1CardName").html(json["name"]);
                 $("#ai1FloorSticky").html(json["floorSticky"]);
                 $("#ai1PintPrice").html(json["pintPrice"]);
@@ -640,6 +692,7 @@
                 $("#ai1Atmosphere").html(json["atmosphere"]);
                 $("#ai1Playlist").html(json["playlist"]);
                 $("#ai1CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -658,6 +711,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai2CardName").html("Eliminated");
+                $("#ai2FloorSticky").html("&nbsp&nbsp");
+                $("#ai2PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai2PubQuiz").html("&nbsp&nbsp");
+                $("#ai2Atmosphere").html("&nbsp&nbsp");
+                $("#ai2Playlist").html("&nbsp&nbsp");
+                $("#ai2CardNo").html(0);
+                }else{
                 $("#ai2CardName").html(json["name"]);
                 $("#ai2FloorSticky").html(json["floorSticky"]);
                 $("#ai2PintPrice").html(json["pintPrice"]);
@@ -665,6 +727,7 @@
                 $("#ai2Atmosphere").html(json["atmosphere"]);
                 $("#ai2Playlist").html(json["playlist"]);
                 $("#ai2CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -683,6 +746,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai3CardName").html("Eliminated");
+                $("#ai3FloorSticky").html("&nbsp&nbsp");
+                $("#ai3PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai3PubQuiz").html("&nbsp&nbsp");
+                $("#UserAtmosphere").html("&nbsp&nbsp");
+                $("#ai3Playlist").html("&nbsp&nbsp");
+                $("#ai3CardNo").html(0);
+                }else{
                 $("#ai3CardName").html(json["name"]);
                 $("#ai3FloorSticky").html(json["floorSticky"]);
                 $("#ai3PintPrice").html(json["pintPrice"]);
@@ -690,6 +762,7 @@
                 $("#ai3Atmosphere").html(json["atmosphere"]);
                 $("#ai3Playlist").html(json["playlist"]);
                 $("#ai3CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
@@ -708,6 +781,15 @@
             xhr.onload = function(e) {
                 var responseText = xhr.response;
                 var json = JSON.parse(responseText);
+                if(json["code"] === 500){
+                $("#ai4CardName").html("Eliminated");
+                $("#ai4FloorSticky").html("&nbsp&nbsp");
+                $("#ai4PintPrice").html("&nbsp&nbsp&nbsp");
+                $("#ai4PubQuiz").html("&nbsp&nbsp");
+                $("#ai4Atmosphere").html("&nbsp&nbsp");
+                $("#ai4Playlist").html("&nbsp&nbsp");
+                $("#ai4CardNo").html(0);
+                }else{
                 $("#ai4CardName").html(json["name"]);
                 $("#ai4FloorSticky").html(json["floorSticky"]);
                 $("#ai4PintPrice").html(json["pintPrice"]);
@@ -715,6 +797,7 @@
                 $("#ai4Atmosphere").html(json["atmosphere"]);
                 $("#ai4Playlist").html(json["playlist"]);
                 $("#ai4CardNo").html(json["deckSize"]);
+                }
             };
 
             //send request
