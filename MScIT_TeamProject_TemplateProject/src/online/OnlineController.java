@@ -1,15 +1,8 @@
 package online;
 
 import java.io.BufferedReader;
-import commandline.model.CategoryTypes;
-import commandline.model.Deck;
-import commandline.model.GameModel;
-import commandline.model.Player;
-import commandline.model.RoundInfo;
-import commandline.model.Card;
-
+import commandline.model.*;
 import java.io.*;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -20,106 +13,142 @@ import java.util.ArrayList;
 
 public class OnlineController {
     GameModel game;
-
     RoundInfo rInfo;
     Deck deck;
     Deck CommunalDeck = new Deck();
-    int aiPlayerNum;
+    int numPlayers;
     CategoryTypes chosenCategory = null;
     int roundWinner;
     Boolean humanIsActive;
     ArrayList<Player> playerList;
+    GameData gameData;
     
-    // user input chooses how many AI players will be in game
-    // the deck is loaded 
     public OnlineController() {
+        /**
+         * intitates the online controller
+         * always sets the nnumber of players to 5 as the online
+         * is only set to work with this
+         */
         deck = readInDeck("GlasgowBars.txt");
-
-        aiPlayerNum = 5;
-
+        numPlayers = 5;
+        gameData = new GameData();
     }
 
     public void startGame(){
-
-        game = new GameModel(aiPlayerNum, deck);
-        // creating a new instance of the game creates a communal deck and 
-        // shuffles the main deck
-        // it creates an arraylist of players 
-        // it deals the deck between the players 
-        // randomly chooses an active player 
+        /**
+         * initiates the online version of the game 
+         * creates an instance of the model and passes the number of players (5)
+         * and also the deck which is written in from the text file (method at bottom of class)
+         */
+        game = new GameModel(numPlayers, deck);
+        /**
+         * initiates an instance of round info which is used to 
+         * update the constant game data eg. round number, whos active etc
+         */
         rInfo = new RoundInfo(game);
         playerList = game.getPlayerArray();
-        // return rInfo; //maybe change return?? instead we could have a getRInfo method
-        // that we call at any time
     }
 
     public void playRoundAI() {
-
+        /**
+         * this is the method strictly for an ai round as it takes in no category as param
+         * 
+         * the chosen category is selected by finding the top value on the active players card
+         */
         chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
 
-        // collect Top cards method takes each players top cards to be able to compare
-        // them
-        // this is handled within the game model (or should be)
+        /**
+         * all the top cards from the players are then collected 
+         * the chosen category is then passed to the round winner method
+         * to see if there has been any winner
+         */
         game.collectTopCards();
         roundWinner = game.getRoundWinner(chosenCategory);
         int roundWinnerID = game.getPlayerArray().get(roundWinner).getPlayerID();
 
-        // below method transfers the cards to communal deck, if its a draw (i.e
-        // roundWinner == -1) then they stay there, otherwise
-        // they are given to the player at index of roundWinner
-        game.transferCards(roundWinner);
 
-        // checks if any of the players have no cards left. If so, they are eliminated.
-        // i is decremented in that case so that no players are skipped
+        /**
+         * checks to see if any player has lost and needs to be eliminated
+         */
         for (int i = 0; i < game.getPlayerArray().size(); i++) {
             if (game.getPlayerArray().get(i).isEmpty()) {
                 game.getPlayerArray().remove(i);
                 i--;
             }
         }
-        // check if the game has ended
+        /**
+         * checks if there is only one player left
+         */
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
+
+        /** method transfers the cards to communal deck, if its a draw (i.e
+         *  roundWinner == -1) then they stay there, otherwise
+         *  they are given to the player at index of roundWinner
+         *  game.transferCards(roundWinner);
+         */
         } else if (roundWinner == -1) {
             game.removeTopCards();
             game.transferToCommunal(game.getMainDeck());
+            gameData.addOneNoOfDraws();
         } else {
             for (int i = 0; i < game.getPlayerArray().size(); i++) {
                 if (game.getPlayerArray().get(i).getPlayerID() == roundWinnerID) {
                     this.roundWinner = i;
                 }
             }
+            /**
+             * adds the round winner to the game data object
+             */
+            gameData.winnerCounter(game.getPlayerArray().get(roundWinner));
         }
 
         // remember to add persistent game stat method - MarksMethod1
 
-        // increments rounds
+       /**
+        * increments the number of rounds for the model and also the gamedata
+        * also updates the round info object
+        */
         game.incrementNumOfRounds();
-
+        gameData.addOneNoOfRounds();
         rInfo.setRoundInfo(game);
-
-        // return rInfo;
     }
 
-    // method to play a round when the human player is active player
-
-    // human round method takes an integer as a parameter - needs to be input via
-    // actionEvent / actionEventlistener
-    //
+    
     public void playRoundHuman(int catChoice) {
-        // sets the category as the players choice - retrieves top card info
+        /**
+         * method to play a round when the human player is active player 
+         * human round method takes an integer as a parameter to dedide the category
+         * this is done via the dropdown menu on the online view
+         * 
+         * will then set the category to the users choice
+         */
         chosenCategory = game.getPlayerArray().get(0).getDeck().seeCard(0).categoryType(catChoice - 1);
 
         // collects the top cards from each player's deck
         game.collectTopCards();
 
-        // sets the winner of the round
+        /**
+         * finds the winner from all the top cards
+         * finds the players id instead of index as need to check for
+         * elminated players which would alter the index
+         *
+         */
         roundWinner = game.getRoundWinner(chosenCategory);
         int roundWinnerID = game.getPlayerArray().get(roundWinner).getPlayerID();
 
-        // transfers the cards to the round winner if there is no draw
+        /** method transfers the cards to communal deck, if its a draw (i.e
+         *  roundWinner == -1) then they stay there, otherwise
+         *  they are given to the player at index of roundWinner
+         *  game.transferCards(roundWinner);
+         */
         game.transferCards(roundWinner);
 
+        /**
+         * all the top cards from the players are then collected 
+         * the chosen category is then passed to the round winner method
+         * to see if there has been any winner
+         */
         for (int j = 0; j < game.getPlayerArray().size(); j++) {
             if (game.getPlayerArray().get(j).isEmpty()) {
                 game.getPlayerArray().remove(j);
@@ -129,9 +158,8 @@ public class OnlineController {
 
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
-            // maybe change to game winner idk?
-            // } else if (roundWinner == -1){
-            // game.setActivePlayer(roundWinner);
+        }else if(roundWinner == -1){
+            gameData.addOneNoOfDraws();
         } else {
             for (int i = 0; i < game.getPlayerArray().size(); i++) {
                 if (game.getPlayerArray().get(i).getPlayerID() == roundWinnerID) {
@@ -139,10 +167,18 @@ public class OnlineController {
                     game.setActivePlayer(this.roundWinner);
                 }
             }
+            /**
+             * adds the round winner to the game data object
+             */
+            gameData.winnerCounter(game.getPlayerArray().get(roundWinner));
         }
 
-        game.incrementNumOfRounds();
 
+        /**
+         * adds the round winner to the game data object
+        */
+        game.incrementNumOfRounds();
+        gameData.addOneNoOfRounds();
         rInfo.setRoundInfo(game);
     }
 
@@ -170,8 +206,21 @@ public class OnlineController {
         return winnerIs;
     }
 
-    // method to return the human player's card
-    // method to return the human player's card
+    public void overallWinner(){
+        /**
+		 * adds the overall winner to the data object
+		 * then passes the object to the upload method for the database
+		*/
+		gameData.setOverallWinner(game.getGameWinner());
+		DatabaseAccess.uploadData(gameData);
+
+
+    }
+
+    /******************************************************************************
+     * all there methods get the top cards of the players and then
+     * @return the card values as a hash map
+     */
     public Map getHumanCard() {
         Player hPlayer = null;
         for (int i = 0; i < this.game.getPlayerArray().size(); i++) {
@@ -246,7 +295,15 @@ public class OnlineController {
             return Ai4Card;
             //making hashmap for card
         }
+    /**
+     * **********************************************************************************
+     */
     
+    /**
+     * takes the card file as path name and reads them all into objects and places them in the deck
+     * @param pathName
+     * @return
+     */
     private static Deck readInDeck(String pathName) {
 
         // will read in info from the txt file containing deck and create a deck object based on this
