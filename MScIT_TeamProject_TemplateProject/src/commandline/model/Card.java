@@ -33,6 +33,10 @@ public class Card {
 	
 	
 	public Category getTopCategory(){
+		/**
+		 * finds the highest category for any given card
+		 * this is used for the Ai player to decide which category to play
+		 */
 		Category maxCategory = cats[0];
 		int maxScore = cats[0].getScore();;
 		for(int i = 0; i < 5; i++) {
@@ -40,24 +44,15 @@ public class Card {
 				maxCategory = cats[i];
 				maxScore = cats[i].getScore();
 			}
-//			maxScore = floorSticky;
-//			if(pintPrice > maxScore){
-//				maxCatagory = 1;
-//				maxScore = pintPrice;}
-//			if(pubQuiz > maxScore){
-//				maxCatagory = 2;
-//				maxScore = pubQuiz;}
-//			if(atmosphere > maxScore){
-//				maxCatagory = 3;
-//				maxScore = atmosphere;}
-//			if(music > maxCatagory){
-//				maxCatagory = 4;}
 		}
-		//System.out.println("Max category is: "+maxCategory.getType().getName());
 		return maxCategory;
 	}
 	
 	public Category matchCategory(CategoryTypes c) {
+		/**
+		 * returns the "category type" for a card
+		 * this can then be used to get the score for that category
+		 */
 		Category matched = null;
 		for (int i = 0; i < cats.length; i++) {
 			if (c == cats[i].getType()) {

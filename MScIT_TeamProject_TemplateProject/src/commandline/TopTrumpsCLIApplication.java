@@ -51,29 +51,12 @@ public class TopTrumpsCLIApplication {
 		// Loop until the user wants to exit the game
 		while (!userWantsToQuit) {
 
-			/*
-			 * System.out.println(new File("GlasgowBars.txt").getAbsolutePath()); //new
-			 * Scanner(ClassYouAreIn.class.getResourceAsStream("names.txt"),
-			 * StandardCharsets.UTF_8); File file = new File("GlasgowBars.txt");
-			 * System.out.println(file.getAbsolutePath());
-			 * System.out.println(file.length()); System.out.println(file.canRead()); //File
-			 * file = new File(getSystemProperty("user.dir"), "GlasgowBars.txt"); //Scanner
-			 * sc = new Scanner(file, StandardCharsets.UTF_8.name()); try{ Scanner sc = new
-			 * Scanner(new BufferedReader(new FileReader("GlasgowBars.txt"))); while
-			 * (sc.hasNextLine()) { System.out.println(sc.nextLine()); } sc.close(); } catch
-			 * (IOException e) { e.printStackTrace(); }
+			/**
+			 * initiates the main deck of cards and sets the loaction of the 
+			 * text file to scan in all the cards
 			 */
-
 			deckOfAllCards = new Deck();
 			deckOfAllCards = inputTxt("/Users/markmorrison/Desktop/GlasgowBars2.txt");
-			// System.out.println("deck of all cards ready");
-			// System.out.println(deckOfAllCards.sizeOfDeck());
-
-			/*
-			 * for (int k = 0; k < deckOfAllCards.sizeOfDeck(); k++) {
-			 * System.out.println(deckOfAllCards.seeCard(k).getName()); }
-			 */
-
 			/*
 			 * Dialogue #1: ask user if he wants to see game statistics or play the game or
 			 * quit
@@ -107,50 +90,13 @@ public class TopTrumpsCLIApplication {
 							+ "Minimum of 2 and maximum of 5 players permitted.\n" + "Enter the number of players: ",
 					new int[] { 2, 3, 4, 5 });
 
-			/* Initialising game below */
-
-			/*
-			 * ######## Add code here to extract all cards from database and store them in a
-			 * deck object
+			/**
+			 * initialising gamne below
+			 * take input of the number of ai players that has been chosen
+			 * and also takes the full deck of cards to be dealt out
 			 */
-
-			// deckOfAllCards = extractDeckFromDataBase(filepath)
-			// the above method is expected to be included in one of the database classes
-
-			// "C:\Users\Larzz\IdeaProjects\Git-Money-Command-Line-adhoc\src\commandline\GlasgowBars.txt"
-
-			// deckOfAllCards = new Deck();
-			// deckOfAllCards = inputTxt("\\Users\\Larzz\\Desktop\\GlasgowBars.txt");
-
-			// deckOfAllCards.addCard(new Card("QMU", 75, 15, 34, 56, 76));
-			// deckOfAllCards.addCard(new Card("Old School House", 44, 43, 87, 27, 87));
-			// deckOfAllCards.addCard(new Card("Dram", 67, 44, 23, 89, 24));
-			// deckOfAllCards.addCard(new Card("GUU", 55, 33, 22, 11, 25));
-
 			game = new GameModel(numberOfPlayers, deckOfAllCards);
-			// game = new GameModel(userInput (# of players),deckOfAllCards object);
-
-			// ############ System.out.println("size of deck (should be
-			// zero):"+game.getMainDeck().sizeOfDeck());
-
-			/*
-			 * ######## Add code here to initialise a GameModel object by calling the
-			 * constructor - Constructor needs to: - initialise player objects (AI player
-			 * number defined by user, 1-4) - initialise mainDeck (aka activeDeck) and
-			 * communalDeck objects and clone deck - shuffle Deck - deal out cards from
-			 * mainDeck to players - set all game stats to zero (TIP: could also collect all
-			 * game stats in a separate object of class GameStats) - randomly select first
-			 * active player (TIP: use integer indicating player number) (have a separate
-			 * method to randomly provide a number)
-			 */
-
-			/*
-			 * For the above constructor method need the following supporting methods within
-			 * the class: public void startDeal() which the takes cards one by one from
-			 * this.mainDeck (aka activeDeck?) and deals them to each player's deck public
-			 * int getActivePlayer() which is getter method that returns who is the active
-			 * player - i.e. returns an int representing player number
-			 */
+			
 
 			/*
 			 * Dialogue Loop: On each round: -- if the user is active player, show their top

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OCTest",
+            "request": "launch",
+            "mainClass": "online.OCTest",
+            "projectName": "MScIT2020Project"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -73,7 +80,10 @@
             "name": "Online Mode",
             "request": "launch",
             "mainClass": "online.TopTrumpsOnlineApplication",
-            "args": ["server", "TopTrumps.json"],
+            "args": [
+                "server",
+                "TopTrumps.json"
+            ],
             "projectName": "MScIT2020Project"
         }
     ]

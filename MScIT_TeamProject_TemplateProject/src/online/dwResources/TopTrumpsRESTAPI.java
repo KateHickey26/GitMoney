@@ -69,7 +69,7 @@ GameModel game;
 		oWriter = new ObjectMapper().writerWithDefaultPrettyPrinter();
         deckFile = conf.getDeckFile();
 		NUMBER_OF_PLAYERS = conf.getNumAIPlayers() + 1;
-		controller = new OnlineController(4);
+		controller = new OnlineController();
 
 	}
 	

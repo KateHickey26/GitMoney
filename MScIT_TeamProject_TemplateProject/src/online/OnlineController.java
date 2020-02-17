@@ -24,16 +24,12 @@ public class OnlineController {
     CategoryTypes chosenCategory = null;
     int roundWinner;
     Boolean humanIsActive;
-
-    // boolean winnerWinner = false;
-    // Player overallWinner = null;
-    // user input chooses how many AI players will be in game
-    // the deck is loaded
-    public OnlineController(int inputNumAI) {
+    public OnlineController() {
         deck = readInDeck("/Users/markmorrison/Desktop/GlasgowBars2.txt");
 
-        aiPlayerNum = inputNumAI + 1;
 
+        
+        aiPlayerNum = 5;
     }
 
     public void startGame() {
@@ -77,7 +73,6 @@ public class OnlineController {
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
         } else if (roundWinner == -1) {
-            game.removeTopCards();
             game.transferToCommunal(game.getMainDeck());
         } else {
             for (int i = 0; i < game.getPlayerArray().size(); i++) {
