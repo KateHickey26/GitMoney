@@ -7,7 +7,6 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 import commandline.model.*;
 import database.*;
-
 /**
  * Top Trumps command line application
  */
@@ -104,7 +103,6 @@ public class TopTrumpsCLIApplication {
 			 * the rounds automatically, so that the AI chooses category and then cards are
 			 * compared
 			 */
-
 			System.out.println("\n\nGame Start");
 			if(writeGameLogsToFile == true){
 				updateTestLogFile("TestLog.txt", "Game Start at "+ currentTimestamp +"\n");
@@ -208,49 +206,36 @@ public class TopTrumpsCLIApplication {
 						System.out.println("Round " + roundCounter + ": This round was a Draw, common pile now has "
 								+ game.getCommunalDeck().sizeOfDeck() + " cards");
 					}
-
-					loserEliminatedMessage = game.eliminateLoser();
-					// need method public String eliminateLosers()
-					// which iterates through remaining players and removes them from the ListArray
-					// if they have no cards left
-					// method should also return a String message which says which players have been
-					// eliminated
-
-
 					/**
-					 * moved the game log file writer to after eliminated player because players would have 0 cards 
-					 * and it would be trying to get top card causimng out of bounds exception
+					 * checks if there is player to be elminated
+					 * ie. has no cards left in the deck
+					 */
+					loserEliminatedMessage = game.eliminateLoser();
+					/**
+					 * if the test logger is selected then will write data to the log including the 
+					 * active players category choice and top card
 					 */
 					if(writeGameLogsToFile == true){
 						updateTestLogFile("TestLog.txt","Active player chose category: "+chosenCategory.getName());
 						updateTestLogFile("TestLog.txt", "Players and their decks: ");
-
-						//test print ************************************
-						System.out.println("Array size" + game.getPlayerArray().size());
-
 						for (int k = 0; k < game.getPlayerArray().size(); k++) {
 							updateTestLogFile("TestLog.txt", game.getPlayerArray().get(k).getName() + " has "
-									+ game.getPlayerArray().get(k).getDeck().sizeOfDeck() + " cards. " + "Top card is " +
-									"Top card is "+game.getPlayerArray().get(k).getPlayersTopCard());
+									+ game.getPlayerArray().get(k).getDeck().sizeOfDeck() + " cards. " + "Top card is "
+									 + game.getPlayerArray().get(k).getPlayersTopCard());
 						}
 					}
-
+					/**
+					 * prints the message signifying the player that has been elminated player
+					 */
 					System.out.println(loserEliminatedMessage);
 
-					// ###### IMPORTANT: consider here what to do if there is a draw in the final
-					// game and no cards
-
+					/**
+					 * checks to see if the game is over and there is only one player left
+					 */
 					isGameOverMessage = game.isGameOver();
-					// need method public String isGameOver()
-					// which returns a message to the user if there is only one player left (winner)
-
 					System.out.println(isGameOverMessage);
-					// need method public int nextActivePlayer()
-					// which selects next active player - use this method also in constructor for
-					// consistency & simplicity
-					// increase round count here
 
-					// activePlayerName=game.getPlayer().get(game.getActivePlayer()).getName();
+			
 					if (activePlayerName != "") {
 						game.setActivePlayer(game.findPlayerIndex(activePlayerName));
 					}
@@ -260,17 +245,19 @@ public class TopTrumpsCLIApplication {
 						break;
 					}
 
-					// System.out.println(game.getActivePlayer());
-					// System.out.println(game.getPlayer().get(game.getActivePlayer()).getName());
-
+					/**
+					 * checks to see if the human is the active player
+					 */
 					if (game.getPlayerArray().get(game.getActivePlayer()).getName() == "You") {
 						humanIsActivePlayer = true;
 					}
-
+					/**
+					 * adds to the round counter and aslo the database incrementer
+					 */
 					roundCounter++;
 					gameData.addOneNoOfRounds();
-					// if(roundCounter>5){ System.exit(-2);}
 				}
+
 
 				if (!gameOver) {
 					System.out.println("Round " + roundCounter);
@@ -279,7 +266,9 @@ public class TopTrumpsCLIApplication {
 						updateTestLogFile("TestLog.txt", "\nRound "+roundCounter+": "+
 						game.getPlayerArray().get(game.getActivePlayer()).getName()+" is active player ###############");
 					}
-
+					/**
+					 * prints the users card
+					 */
 					if (game.getPlayerArray().get(0).getName() == "You") {
 						System.out.println("Your drew '" + game.getPlayerArray().get(0).getDeck().seeCard(0).getName()
 								+ "':\n" + "   > " + game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(0) + ": "
@@ -295,11 +284,9 @@ public class TopTrumpsCLIApplication {
 						System.out.println(
 								"There are " + game.getPlayerArray().get(0).getDeck().sizeOfDeck() + " cards in your deck");
 					}
-
-					// needs method public String displayUserTopCard()
-					// which returns user's top card - write a method in both Card and GameModel
-					// classes for completeness
-
+					/**
+					 * prints the category selection choice
+					 */
 					userInput = promptUserInput("It is your turn to select a category, the categories are:\n" + "   1: "
 							+ game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(0) + "\n" + "   2: "
 							+ game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(1) + "\n" + "   3: "
@@ -307,18 +294,22 @@ public class TopTrumpsCLIApplication {
 							+ game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(3) + "\n" + "   5: "
 							+ game.getPlayerArray().get(0).getDeck().seeCard(0).categoryName(4) + "\n"
 							+ "Enter the number for your attribute: ", new int[] { 1, 2, 3, 4, 5 });
-
+						/**
+						 * removes one from the category choice from the input so it works
+						 * with the array numbers starting with 0
+						 */
 					chosenCategory = game.getPlayerArray().get(0).getDeck().seeCard(0).categoryType(userInput - 1);
 
+					/**
+					 * collects all the cards from the players and puts them in the main deck to check for winner
+					 */
 					game.collectTopCards();
-
+					/**
+					 * if log is active will write in the chosen category and the active player top card
+					 */
 					if(writeGameLogsToFile == true){
 						updateTestLogFile("TestLog.txt","Active player chose category: "+chosenCategory.getName());
 						updateTestLogFile("TestLog.txt", "Players and their decks: ");
-
-						//test print ************************************
-						System.out.println("Array size" + game.getPlayerArray().size());
-
 						for (int k = 0; k < game.getPlayerArray().size(); k++) {
 							updateTestLogFile("TestLog.txt",
 									game.getPlayerArray().get(k).getName()+" has "+
@@ -326,25 +317,15 @@ public class TopTrumpsCLIApplication {
 											"Top card is "+game.getPlayerArray().get(k).getPlayersTopCard());
 						}
 					}
-
-					// need method public void collectTopCards()
-					// which collects and puts everyone's top card in mainDeck (aka activeDeck) here
-
-					// include a line here for displaying the user's choice of category to the user
-					// - NOT NEEDED
-
-					// reuse method public void collectTopCards() - NOT NEEDED
-
-					roundWinner = game.getRoundWinner(chosenCategory);
-
-					// reuse method public int getRoundWinner(Category object chosen by active AI
-					// player)
-					// System.out.println("Roundwinner: " + roundWinner);
-
-					/*
-					 * if(roundWinner==-1){ System.out.println("############# Draw"); }
+					/**
+					 * takes the chosen category and checks all the top cards for winner
 					 */
-
+					roundWinner = game.getRoundWinner(chosenCategory);
+					
+					/**
+					 * if the card come back with a winner then will print out the winning player and what
+					 * they're winning card is
+					 */
 					if (roundWinner > -1) {
 						gameData.winnerCounter(game.getPlayerArray().get(roundWinner));
 						System.out.println("Round " + roundCounter + ": Player "
@@ -363,39 +344,45 @@ public class TopTrumpsCLIApplication {
 								+ game.getRoundWinningCard().categoryValue(4));
 						System.out.println("Comparison category: " + chosenCategory.getName());
 					}
-					// game.removeTopCards();
 
 					game.transferCards(roundWinner);
-					// System.out.println("Transfer successful");
-					// reuse method public void giveCardsToRoundWinner()
-
+					/**
+					 * if there is a winner will transfer all the card to them and if not will
+					 * keep them in the communal deck until the next winner
+					 */
 					if (roundWinner > -1) {
+						/**
+						 * sets the active player to the winner if there was a winner
+						 */
 						game.setActivePlayer(roundWinner);
 						activePlayerName = game.getPlayerArray().get(game.getActivePlayer()).getName();
-						// game.setActivePlayer(game.findPlayerIndex(activePlayerName));
 					}
 
 					if (roundWinner == -1) {
 						/**
-						 * adds one to the number of draws in the data object
+						 * adds one to the number of draws in the data object and also prints out the 
+						 * draw statements and how many card are in the common pile
 						 */
 						gameData.addOneNoOfDraws();
 						System.out.println("Round " + roundCounter + ": This round was a Draw, common pile now has "
 								+ game.getCommunalDeck().sizeOfDeck() + " cards");
 					}
 
+					/**
+					 * cehcks if anyone has been eliminated
+					 * ie has 0 cards left
+					 * if they have will return eliminated message to be printed
+					 */
 					loserEliminatedMessage = game.eliminateLoser();
 					System.out.println(loserEliminatedMessage);
-					// reuse method public String eliminateLosers()
 
-					// ###### IMPORTANT: consider here what to do if there is a draw in the final
-					// game and no cards
-
+					/**
+					 * checks if the game is over and there is only player remaining and 
+					 * if there is an overall winner prints message
+					 */
 					isGameOverMessage = game.isGameOver();
 					System.out.println(isGameOverMessage);
-					// reuse method public String isGameOver()
-
-					// activePlayerName=game.getPlayer().get(game.getActivePlayer()).getName();
+					
 					if (activePlayerName != "") {
 						game.setActivePlayer(game.findPlayerIndex(activePlayerName));
 					}
@@ -408,9 +395,6 @@ public class TopTrumpsCLIApplication {
 					if (game.getPlayerArray().get(game.getActivePlayer()).getName() != "You") {
 						humanIsActivePlayer = false;
 					}
-
-					// reuse method public int nextActivePlayer()
-
 					roundCounter++;
 					gameData.addOneNoOfRounds();
 				}
@@ -428,8 +412,17 @@ public class TopTrumpsCLIApplication {
 
 	}
 
-	// Method for prompting user for input until user types valid input
+
+	/**
+	 * method called if the user inputs the wrong type of string
+	 * eg too many players at start
+	 * will keep promting until the user inputs an accecptable input
+	 * @param userMessage
+	 * @param userOptions
+	 * @return
+	 */
 	private static int promptUserInput(String userMessage, int[] userOptions) {
+		
 		Scanner scanner = new Scanner(System.in);
 		int userInput;
 		while (true) {
@@ -446,8 +439,10 @@ public class TopTrumpsCLIApplication {
 		}
 	}
 
-	// Method for checking if an array contains a value
 	public static boolean contains(int[] array, int value) {
+		/**
+		 * method to check is a given array contains a given int value
+		 */
 		for (int item : array) {
 			if (item == value) {
 				return true;
@@ -462,8 +457,6 @@ public class TopTrumpsCLIApplication {
 		 * accordingly
 		 */
 		Deck inputDeck = new Deck();
-		// System.out.println("file found");
-		// StandardCharsets.UTF_8.name())
 		try {
 			Scanner scanner2 = new Scanner(new BufferedReader(new FileReader(pathName)));
 			while (scanner2.hasNextLine()) {
@@ -486,6 +479,10 @@ public class TopTrumpsCLIApplication {
 	}
 
 	public static void updateTestLogFile(String fileName, String inputTextLine) {
+		/**
+		 * inputs strings to the test log
+		 * method called throughout the program if the test log version is called at startup
+		 */
 		File logFile = new File(fileName);
 		try {
 			if (!logFile.exists()) {
@@ -501,7 +498,3 @@ public class TopTrumpsCLIApplication {
 	}
 
 }
-
-// additional notes:
-// game is expected to have a 'test log' that stores a log of every action that
-// happens in the game
