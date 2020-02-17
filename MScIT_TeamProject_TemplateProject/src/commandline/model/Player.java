@@ -48,7 +48,7 @@ public class Player {
 	//method to check if the player is the winner - they have all the cards 
 	public Boolean isFull() {
 		// 
-		if (playerDeck.getMainDeck().size() == 40) {
+		if (playerDeck.getDeckArray().size() == 40) {
 			return true;
 		} else
 			return false;
@@ -56,7 +56,7 @@ public class Player {
 	
 	// method to check if the player has lost - if they have 0 cards 
 	public Boolean isEmpty() {
-		if (playerDeck.getMainDeck().size() == 0) {
+		if (playerDeck.getDeckArray().size() == 0) {
 			return true;
 		} else
 			return false;

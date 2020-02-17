@@ -29,7 +29,7 @@ public class Deck {
 	}
 	
 	// I added this getter
-	public ArrayList<Card> getMainDeck() {
+	public ArrayList<Card> getDeckArray() {
 		return this.mainDeck;
 	}
 	
@@ -65,7 +65,7 @@ public class Deck {
 		 *adds a lost of cards to the current deck
 		 *such as adding the communal deck to a players hand
 		 */
-		this.mainDeck.addAll(cards.getMainDeck());
+		this.mainDeck.addAll(cards.getDeckArray());
 		//this.mainDeck.addAll(cards.getMainDeck());
 	}
 

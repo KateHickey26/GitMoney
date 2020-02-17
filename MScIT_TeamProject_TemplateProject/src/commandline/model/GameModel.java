@@ -91,13 +91,13 @@ public class GameModel {
 		int roundWinnerCount=0;
 		Card winningCard=null;
 		int highestScore = mainDeck.seeCard(0).matchCategory(chosenCategory).getScore();
-		for (int i = 0; i < mainDeck.getMainDeck().size(); i++) {
+		for (int i = 0; i < mainDeck.getDeckArray().size(); i++) {
 			if(mainDeck.seeCard(i).matchCategory(chosenCategory).getScore()>highestScore){
 				highestScore=mainDeck.seeCard(i).matchCategory(chosenCategory).getScore();
 			}
 		}
 		//System.out.println("maindeck size:"+mainDeck.getMainDeck().size());
-		for (int k = 0; k < mainDeck.getMainDeck().size(); k++) {
+		for (int k = 0; k < mainDeck.getDeckArray().size(); k++) {
 			if(mainDeck.seeCard(k).matchCategory(chosenCategory).getScore()==highestScore){
 				roundWinner=k;
 				winningCard=mainDeck.seeCard(k);
@@ -116,7 +116,7 @@ public class GameModel {
 
 		int resultInt = -2; // initialised number that we don't want returned to make testing easier; change before turning in
 
-		ArrayList<Card> topCards = mainDeck.getMainDeck();
+		ArrayList<Card> topCards = mainDeck.getDeckArray();
 
 		Card winningCard = topCards.get(0);
 		int maxScore = 0;
@@ -173,11 +173,11 @@ public class GameModel {
 
 	// empties communal deck
 	public void emptyCommunal() {
-		this.communalDeck.getMainDeck().clear();
+		this.communalDeck.getDeckArray().clear();
 	}
 
 	public void emptyMainDeck() {
-		this.mainDeck.getMainDeck().clear();
+		this.mainDeck.getDeckArray().clear();
 	}
 
 

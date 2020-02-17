@@ -22,7 +22,7 @@ public class RoundInfo {
         Player activeP = playerList.get(p);
         activePlayer = activeP.getName();
 
-        communalDeckSize = g.getCommunalDeck().sizeOfDeck();
+        communalDeckSize = g.getCommunalDeck().getDeckArray().size();
     }
 
     public void setRoundInfo (GameModel g) {
@@ -37,7 +37,7 @@ public class RoundInfo {
         Player activeP = playerList.get(p);
         activePlayer = activeP.getName();
 
-        communalDeckSize = g.getCommunalDeck().sizeOfDeck();
+        communalDeckSize = g.getCommunalDeck().getDeckArray().size();
     }
 
     public RoundInfo getRoundInfo(){
