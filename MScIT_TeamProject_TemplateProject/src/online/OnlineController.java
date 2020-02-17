@@ -1,8 +1,17 @@
 package online;
 
 import java.io.BufferedReader;
-import commandline.model.*;
+import commandline.model.CategoryTypes;
+import commandline.model.Deck;
+import commandline.model.GameData;
+import commandline.model.GameModel;
+import commandline.model.Player;
+import commandline.model.RoundInfo;
+import database.DatabaseAccess;
+import commandline.model.Card;
+
 import java.io.*;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -13,6 +22,7 @@ import java.util.ArrayList;
 
 public class OnlineController {
     GameModel game;
+
     RoundInfo rInfo;
     Deck deck;
     Deck CommunalDeck = new Deck();
@@ -23,6 +33,8 @@ public class OnlineController {
     ArrayList<Player> playerList;
     GameData gameData;
     
+    // user input chooses how many AI players will be in game
+    // the deck is loaded 
     public OnlineController() {
         /**
          * intitates the online controller
@@ -32,16 +44,16 @@ public class OnlineController {
         deck = readInDeck("GlasgowBars.txt");
         numPlayers = 5;
         gameData = new GameData();
+
     }
 
-    public void startGame(){
-        /**
-         * initiates the online version of the game 
-         * creates an instance of the model and passes the number of players (5)
-         * and also the deck which is written in from the text file (method at bottom of class)
-         */
+    public void startGame(){/**
+        * initiates the online version of the game 
+        * creates an instance of the model and passes the number of players (5)
+        * and also the deck which is written in from the text file (method at bottom of class)
+        */
         game = new GameModel(numPlayers, deck);
-        /**
+         /**
          * initiates an instance of round info which is used to 
          * update the constant game data eg. round number, whos active etc
          */
@@ -57,7 +69,7 @@ public class OnlineController {
          */
         chosenCategory = game.AIPlayerTopCategory(game.getActivePlayer());
 
-        /**
+         /**
          * all the top cards from the players are then collected 
          * the chosen category is then passed to the round winner method
          * to see if there has been any winner
@@ -66,6 +78,10 @@ public class OnlineController {
         roundWinner = game.getRoundWinner(chosenCategory);
         int roundWinnerID = game.getPlayerArray().get(roundWinner).getPlayerID();
 
+        // below method transfers the cards to communal deck, if its a draw (i.e
+        // roundWinner == -1) then they stay there, otherwise
+        // they are given to the player at index of roundWinner
+        game.transferCards(roundWinner);
 
         /**
          * checks to see if any player has lost and needs to be eliminated
@@ -76,11 +92,12 @@ public class OnlineController {
                 i--;
             }
         }
-        /**
+         /**
          * checks if there is only one player left
          */
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
+            overallWinner();
 
         /** method transfers the cards to communal deck, if its a draw (i.e
          *  roundWinner == -1) then they stay there, otherwise
@@ -103,9 +120,7 @@ public class OnlineController {
             gameData.winnerCounter(game.getPlayerArray().get(roundWinner));
         }
 
-        // remember to add persistent game stat method - MarksMethod1
-
-       /**
+        /**
         * increments the number of rounds for the model and also the gamedata
         * also updates the round info object
         */
@@ -143,12 +158,12 @@ public class OnlineController {
          *  game.transferCards(roundWinner);
          */
         game.transferCards(roundWinner);
-
         /**
          * all the top cards from the players are then collected 
          * the chosen category is then passed to the round winner method
          * to see if there has been any winner
          */
+
         for (int j = 0; j < game.getPlayerArray().size(); j++) {
             if (game.getPlayerArray().get(j).isEmpty()) {
                 game.getPlayerArray().remove(j);
@@ -158,8 +173,7 @@ public class OnlineController {
 
         if (game.getPlayerArray().size() == 1) {
             roundWinner = 0;
-        }else if(roundWinner == -1){
-            gameData.addOneNoOfDraws();
+            overallWinner();
         } else {
             for (int i = 0; i < game.getPlayerArray().size(); i++) {
                 if (game.getPlayerArray().get(i).getPlayerID() == roundWinnerID) {
@@ -172,14 +186,22 @@ public class OnlineController {
              */
             gameData.winnerCounter(game.getPlayerArray().get(roundWinner));
         }
-
-
         /**
-         * adds the round winner to the game data object
+        * adds the round winner to the game data object
         */
         game.incrementNumOfRounds();
         gameData.addOneNoOfRounds();
         rInfo.setRoundInfo(game);
+    }
+    public void overallWinner(){
+        /**
+		 * adds the overall winner to the data object
+		 * then passes the object to the upload method for the database
+		*/
+		gameData.setOverallWinner(game.getGameWinner());
+		DatabaseAccess.uploadData(gameData);
+
+
     }
 
     public ArrayList<Player> getPlayerList() {
@@ -206,21 +228,8 @@ public class OnlineController {
         return winnerIs;
     }
 
-    public void overallWinner(){
-        /**
-		 * adds the overall winner to the data object
-		 * then passes the object to the upload method for the database
-		*/
-		gameData.setOverallWinner(game.getGameWinner());
-		DatabaseAccess.uploadData(gameData);
-
-
-    }
-
-    /******************************************************************************
-     * all there methods get the top cards of the players and then
-     * @return the card values as a hash map
-     */
+    // method to return the human player's card
+    // method to return the human player's card
     public Map getHumanCard() {
         Player hPlayer = null;
         for (int i = 0; i < this.game.getPlayerArray().size(); i++) {
@@ -295,15 +304,7 @@ public class OnlineController {
             return Ai4Card;
             //making hashmap for card
         }
-    /**
-     * **********************************************************************************
-     */
     
-    /**
-     * takes the card file as path name and reads them all into objects and places them in the deck
-     * @param pathName
-     * @return
-     */
     private static Deck readInDeck(String pathName) {
 
         // will read in info from the txt file containing deck and create a deck object based on this

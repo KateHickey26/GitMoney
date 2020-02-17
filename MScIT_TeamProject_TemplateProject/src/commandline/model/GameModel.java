@@ -59,7 +59,7 @@ public class GameModel {
 
 	public int randomFirstPlayer(int numAIPlayers) {
 		/**
-		 * picks a randomint to decide who the first player will be
+		 * picks a random int to decide who the first player will be
 		 */
 		return new Random().nextInt(numAIPlayers);
 	}
@@ -101,17 +101,12 @@ public class GameModel {
 	}
 
 	// finding round winner and returning their ID number; returns -1 if draw
+	// finding round winner and returning their ID number; returns -1 if draw
 	public int getRoundWinner(CategoryTypes chosenCategory) {
 		int roundWinner=-2;
 		int roundWinnerCount=0;
 		Card winningCard=null;
-		/**
-		 * gets the highest score for the player at position 0 and uses that as the benchmark
-		 */
 		int highestScore = mainDeck.seeCard(0).matchCategory(chosenCategory).getScore();
-		/**
-		 * finds if there are any higher values compared to index 0
-		 */
 		for (int i = 0; i < mainDeck.getDeckArray().size(); i++) {
 			if(mainDeck.seeCard(i).matchCategory(chosenCategory).getScore()>highestScore){
 				highestScore=mainDeck.seeCard(i).matchCategory(chosenCategory).getScore();
@@ -119,10 +114,6 @@ public class GameModel {
 		}
 		//System.out.println("maindeck size:"+mainDeck.getMainDeck().size());
 		for (int k = 0; k < mainDeck.getDeckArray().size(); k++) {
-			/**
-		 * checks if there are any matching values
-		 * if there is a matching value adds one to round winner counter
-		 */
 			if(mainDeck.seeCard(k).matchCategory(chosenCategory).getScore()==highestScore){
 				roundWinner=k;
 				winningCard=mainDeck.seeCard(k);
@@ -135,44 +126,6 @@ public class GameModel {
 		this.roundWinningCard=winningCard;
 		return roundWinner;
 	}
-	// public int getRoundWinner(CategoryTypes chosenCategory) {
-	// 	int roundWinner=-2;
-	// 	Card winningCard=null;
-	// 	/**
-	// 	 * gets the highest score for the player at position 0 and uses that as the benchmark
-	// 	 */
-	// 	int highestScore = mainDeck.seeCard(0).matchCategory(chosenCategory).getScore();
-	// 	/**
-	// 	 * finds if there are any higher values compared to index 0
-	// 	 */
-	// 	for (int i = 0; i < mainDeck.getDeckArray().size(); i++) {
-	// 		if(mainDeck.seeCard(i).matchCategory(chosenCategory).getScore() > highestScore) {
-	// 			highestScore = mainDeck.seeCard(i).matchCategory(chosenCategory).getScore();
-	// 			roundWinner = i;
-	// 			winningCard=mainDeck.seeCard(i);
-	// 		}
-	// 	}
-	// 	/**
-	// 	 * checks id there are any matching values
-	// 	 * if there is a matching value sets round winner to -1
-	// 	 */
-	// 	for (int k = 0; k < mainDeck.getDeckArray().size(); k++) {
-	// 		if(k != roundWinner){
-	// 			if(mainDeck.seeCard(k).matchCategory(chosenCategory).getScore() == highestScore){
-	// 				roundWinner= -1;}
-				
-	// 			}
-	// 		}
-	// 	/**
-	// 	 * sets the round winning card - or equal round winning card
-	// 	 * returns the value of round winner whihc is the index in the player array or -1 for draw
-	// 	 */
-	// 	this.roundWinningCard=winningCard;
-	// 	return roundWinner;
-	// }
-
-
-
 	
 	public void transferCards(int resultInt) {
 		/**
